@@ -1,0 +1,10 @@
+config/api_keys.json  
+cuda-keyring_1.1-1_all.deb
+cuda_12.2.0_535.54.03_linux.run
+Dockerfile
+Miniconda3-latest-Linux-x86_64.sh
+BondZiA.code-workspace
+venv/
+load_cuda_env.sh
+Miniconda3-latest-Linux-x86_64.sh
+        __pycache__/

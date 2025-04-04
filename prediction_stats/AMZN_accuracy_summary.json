@@ -1,0 +1,128 @@
+{
+    "history": [
+        {
+            "intraday": {
+                "sample_count": 10,
+                "mae": 24.532058715820312,
+                "mape": 14.119170483925359,
+                "rmse": 24.532058715820312,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "five_day": {
+                "sample_count": 10,
+                "mae": 15.889389038085938,
+                "mape": 9.144972108250899,
+                "rmse": 15.889389038085938,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 1.1968136560087523e-15
+            },
+            "monthly": {
+                "sample_count": 10,
+                "mae": 15.851287841796875,
+                "mape": 9.123043362185253,
+                "rmse": 15.851287841796875,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 5.98527080436594e-16
+            },
+            "timestamp": "2025-04-04T14:54:44.288908",
+            "symbol": "AMZN"
+        },
+        {
+            "intraday": {
+                "sample_count": 10,
+                "mae": 24.532058715820312,
+                "mape": 14.119170483925359,
+                "rmse": 24.532058715820312,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "five_day": {
+                "sample_count": 10,
+                "mae": 15.889389038085938,
+                "mape": 9.144972108250899,
+                "rmse": 15.889389038085938,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 1.1968136560087523e-15
+            },
+            "monthly": {
+                "sample_count": 10,
+                "mae": 15.851287841796875,
+                "mape": 9.123043362185253,
+                "rmse": 15.851287841796875,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 5.98527080436594e-16
+            },
+            "timestamp": "2025-04-04T15:03:26.738036",
+            "symbol": "AMZN"
+        },
+        {
+            "intraday": {
+                "sample_count": 14,
+                "mae": 24.352058715820306,
+                "mape": 14.001068657402582,
+                "rmse": 24.35205871582031,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "five_day": {
+                "sample_count": 14,
+                "mae": 15.70938903808593,
+                "mape": 9.032018075137087,
+                "rmse": 15.70938903808593,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": -2.013690692380845e-15
+            },
+            "monthly": {
+                "sample_count": 14,
+                "mae": 15.671287841796868,
+                "mape": 9.010112023110947,
+                "rmse": 15.67128784179687,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "timestamp": "2025-04-04T16:09:33.784205",
+            "symbol": "AMZN"
+        }
+    ],
+    "latest": {
+        "intraday": {
+            "sample_count": 14,
+            "mae": 24.352058715820306,
+            "mape": 14.001068657402582,
+            "rmse": 24.35205871582031,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0,
+            "confidence_correlation": 0
+        },
+        "five_day": {
+            "sample_count": 14,
+            "mae": 15.70938903808593,
+            "mape": 9.032018075137087,
+            "rmse": 15.70938903808593,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0,
+            "confidence_correlation": -2.013690692380845e-15
+        },
+        "monthly": {
+            "sample_count": 14,
+            "mae": 15.671287841796868,
+            "mape": 9.010112023110947,
+            "rmse": 15.67128784179687,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0,
+            "confidence_correlation": 0
+        },
+        "timestamp": "2025-04-04T16:09:33.784205",
+        "symbol": "AMZN"
+    }
+}

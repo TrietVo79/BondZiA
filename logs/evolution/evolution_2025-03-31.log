@@ -1,0 +1,1061 @@
+2025-03-31 08:56:29 | ERROR    | __main__:_check_and_train_initial_models:352 - Lỗi khi kiểm tra và huấn luyện mô hình ban đầu: 'IntradayPredictor' object has no attribute 'check_model_exists'
+2025-03-31 08:56:29 | ERROR    | __main__:_check_and_train_initial_models:353 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 271, in _check_and_train_initial_models
+    if not predictor.check_model_exists():
+AttributeError: 'IntradayPredictor' object has no attribute 'check_model_exists'
+
+2025-03-31 09:03:20 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 15 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 09:03:21 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/15]: TSLA - intraday
+2025-03-31 09:03:21 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-03-31 09:03:21 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - intraday
+2025-03-31 09:03:24 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model/lstm/PartitionedCall]] [Op:__inference_train_function_6043]
+2025-03-31 09:03:24 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model/lstm/PartitionedCall]] [Op:__inference_train_function_6043]
+
+2025-03-31 09:03:24 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - intraday
+2025-03-31 09:03:24 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/15]: TSLA - five_day
+2025-03-31 09:03:24 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-03-31 09:03:24 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - five_day
+2025-03-31 09:03:27 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential/lstm_2/PartitionedCall]] [Op:__inference_train_function_12274]
+2025-03-31 09:03:27 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential/lstm_2/PartitionedCall]] [Op:__inference_train_function_12274]
+
+2025-03-31 09:03:27 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - five_day
+2025-03-31 09:03:27 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/15]: TSLA - monthly
+2025-03-31 09:03:28 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 09:03:28 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 09:03:28 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 09:03:28 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 09:03:28 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/15]: NVDA - intraday
+2025-03-31 09:03:28 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-03-31 09:03:28 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - intraday
+2025-03-31 09:03:31 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_1/lstm_4/PartitionedCall]] [Op:__inference_train_function_18316]
+2025-03-31 09:03:31 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_1/lstm_4/PartitionedCall]] [Op:__inference_train_function_18316]
+
+2025-03-31 09:03:31 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - intraday
+2025-03-31 09:03:31 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/15]: NVDA - five_day
+2025-03-31 09:03:31 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-03-31 09:03:31 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - five_day
+2025-03-31 09:03:34 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_1/lstm_6/PartitionedCall]] [Op:__inference_train_function_24547]
+2025-03-31 09:03:34 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_1/lstm_6/PartitionedCall]] [Op:__inference_train_function_24547]
+
+2025-03-31 09:03:34 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - five_day
+2025-03-31 09:03:34 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [6/15]: NVDA - monthly
+2025-03-31 09:03:34 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 09:03:34 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 09:03:34 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 09:03:34 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 09:03:34 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [7/15]: PLTR - intraday
+2025-03-31 09:03:34 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-03-31 09:03:34 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - intraday
+2025-03-31 09:03:37 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_2/lstm_8/PartitionedCall]] [Op:__inference_train_function_30589]
+2025-03-31 09:03:37 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_2/lstm_8/PartitionedCall]] [Op:__inference_train_function_30589]
+
+2025-03-31 09:03:37 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - intraday
+2025-03-31 09:03:37 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [8/15]: PLTR - five_day
+2025-03-31 09:03:37 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-03-31 09:03:37 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - five_day
+2025-03-31 09:03:40 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_2/lstm_10/PartitionedCall]] [Op:__inference_train_function_36820]
+2025-03-31 09:03:40 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_2/lstm_10/PartitionedCall]] [Op:__inference_train_function_36820]
+
+2025-03-31 09:03:40 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - five_day
+2025-03-31 09:03:40 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [9/15]: PLTR - monthly
+2025-03-31 09:03:41 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 09:03:41 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 09:03:41 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 09:03:41 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 09:03:41 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [10/15]: AGX - intraday
+2025-03-31 09:03:41 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - intraday
+2025-03-31 09:03:41 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - intraday
+2025-03-31 09:03:43 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AGX - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_3/lstm_12/PartitionedCall]] [Op:__inference_train_function_42015]
+2025-03-31 09:03:43 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_3/lstm_12/PartitionedCall]] [Op:__inference_train_function_42015]
+
+2025-03-31 09:03:43 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - intraday
+2025-03-31 09:03:43 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [11/15]: AGX - five_day
+2025-03-31 09:03:43 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - five_day
+2025-03-31 09:03:43 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - five_day
+2025-03-31 09:03:46 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AGX - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_3/lstm_14/PartitionedCall]] [Op:__inference_train_function_48246]
+2025-03-31 09:03:46 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_3/lstm_14/PartitionedCall]] [Op:__inference_train_function_48246]
+
+2025-03-31 09:03:46 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - five_day
+2025-03-31 09:03:46 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [12/15]: AGX - monthly
+2025-03-31 09:03:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 09:03:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 09:03:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 09:03:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 09:03:47 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [13/15]: AMZN - intraday
+2025-03-31 09:03:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-03-31 09:03:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - intraday
+2025-03-31 09:03:49 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_4/lstm_16/PartitionedCall]] [Op:__inference_train_function_53441]
+2025-03-31 09:03:49 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_4/lstm_16/PartitionedCall]] [Op:__inference_train_function_53441]
+
+2025-03-31 09:03:49 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - intraday
+2025-03-31 09:03:49 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [14/15]: AMZN - five_day
+2025-03-31 09:03:49 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-03-31 09:03:49 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - five_day
+2025-03-31 09:03:52 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_4/lstm_18/PartitionedCall]] [Op:__inference_train_function_59672]
+2025-03-31 09:03:52 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_4/lstm_18/PartitionedCall]] [Op:__inference_train_function_59672]
+
+2025-03-31 09:03:52 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - five_day
+2025-03-31 09:03:52 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [15/15]: AMZN - monthly
+2025-03-31 09:03:53 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 09:03:53 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 09:03:53 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 09:03:53 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 09:03:53 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 0/15 mô hình
+2025-03-31 09:03:54 | INFO     | __main__:_run_predictions:586 - Mô hình intraday cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:03:56 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_5/lstm_20/PartitionedCall]] [Op:__inference_train_function_65714]
+2025-03-31 09:03:56 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_5/lstm_20/PartitionedCall]] [Op:__inference_train_function_65714]
+
+2025-03-31 09:03:57 | INFO     | __main__:_run_predictions:606 - Mô hình five_day cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:04:00 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_5/lstm_22/PartitionedCall]] [Op:__inference_train_function_72879]
+2025-03-31 09:04:00 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_5/lstm_22/PartitionedCall]] [Op:__inference_train_function_72879]
+
+2025-03-31 09:04:01 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:04:01 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 09:26:23 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 15 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 09:26:23 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/15]: TSLA - intraday
+2025-03-31 09:26:23 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-03-31 09:26:23 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - intraday
+2025-03-31 09:26:27 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model/lstm/PartitionedCall]] [Op:__inference_train_function_6043]
+2025-03-31 09:26:27 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model/lstm/PartitionedCall]] [Op:__inference_train_function_6043]
+
+2025-03-31 09:26:27 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - intraday
+2025-03-31 09:26:27 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/15]: TSLA - five_day
+2025-03-31 09:26:27 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-03-31 09:26:27 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - five_day
+2025-03-31 09:26:30 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential/lstm_2/PartitionedCall]] [Op:__inference_train_function_12274]
+2025-03-31 09:26:30 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential/lstm_2/PartitionedCall]] [Op:__inference_train_function_12274]
+
+2025-03-31 09:26:30 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - five_day
+2025-03-31 09:26:30 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/15]: TSLA - monthly
+2025-03-31 09:26:30 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 09:26:30 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 09:26:30 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 09:26:30 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 09:26:30 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/15]: NVDA - intraday
+2025-03-31 09:26:30 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-03-31 09:26:30 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - intraday
+2025-03-31 09:26:33 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_1/lstm_4/PartitionedCall]] [Op:__inference_train_function_18316]
+2025-03-31 09:26:33 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_1/lstm_4/PartitionedCall]] [Op:__inference_train_function_18316]
+
+2025-03-31 09:26:33 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - intraday
+2025-03-31 09:26:33 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/15]: NVDA - five_day
+2025-03-31 09:26:33 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-03-31 09:26:33 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - five_day
+2025-03-31 09:26:36 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_1/lstm_6/PartitionedCall]] [Op:__inference_train_function_24547]
+2025-03-31 09:26:36 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_1/lstm_6/PartitionedCall]] [Op:__inference_train_function_24547]
+
+2025-03-31 09:26:36 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - five_day
+2025-03-31 09:26:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [6/15]: NVDA - monthly
+2025-03-31 09:26:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 09:26:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 09:26:36 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 09:26:36 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 09:26:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [7/15]: PLTR - intraday
+2025-03-31 09:26:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-03-31 09:26:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - intraday
+2025-03-31 09:26:39 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_2/lstm_8/PartitionedCall]] [Op:__inference_train_function_30589]
+2025-03-31 09:26:39 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_2/lstm_8/PartitionedCall]] [Op:__inference_train_function_30589]
+
+2025-03-31 09:26:39 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - intraday
+2025-03-31 09:26:39 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [8/15]: PLTR - five_day
+2025-03-31 09:26:39 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-03-31 09:26:39 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - five_day
+2025-03-31 09:26:42 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_2/lstm_10/PartitionedCall]] [Op:__inference_train_function_36820]
+2025-03-31 09:26:42 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_2/lstm_10/PartitionedCall]] [Op:__inference_train_function_36820]
+
+2025-03-31 09:26:42 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - five_day
+2025-03-31 09:26:42 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [9/15]: PLTR - monthly
+2025-03-31 09:26:43 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 09:26:43 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 09:26:43 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 09:26:43 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 09:26:43 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [10/15]: AGX - intraday
+2025-03-31 09:26:43 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - intraday
+2025-03-31 09:26:43 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - intraday
+2025-03-31 09:26:45 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AGX - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_3/lstm_12/PartitionedCall]] [Op:__inference_train_function_42015]
+2025-03-31 09:26:45 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_3/lstm_12/PartitionedCall]] [Op:__inference_train_function_42015]
+
+2025-03-31 09:26:45 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - intraday
+2025-03-31 09:26:45 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [11/15]: AGX - five_day
+2025-03-31 09:26:45 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - five_day
+2025-03-31 09:26:45 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - five_day
+2025-03-31 09:26:47 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AGX - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_3/lstm_14/PartitionedCall]] [Op:__inference_train_function_48246]
+2025-03-31 09:26:47 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_3/lstm_14/PartitionedCall]] [Op:__inference_train_function_48246]
+
+2025-03-31 09:26:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - five_day
+2025-03-31 09:26:47 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [12/15]: AGX - monthly
+2025-03-31 09:26:48 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 09:26:48 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 09:26:48 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 09:26:48 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 09:26:48 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [13/15]: AMZN - intraday
+2025-03-31 09:26:48 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-03-31 09:26:48 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - intraday
+2025-03-31 09:26:51 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_4/lstm_16/PartitionedCall]] [Op:__inference_train_function_53441]
+2025-03-31 09:26:51 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_4/lstm_16/PartitionedCall]] [Op:__inference_train_function_53441]
+
+2025-03-31 09:26:51 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - intraday
+2025-03-31 09:26:51 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [14/15]: AMZN - five_day
+2025-03-31 09:26:51 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-03-31 09:26:51 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - five_day
+2025-03-31 09:26:53 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_4/lstm_18/PartitionedCall]] [Op:__inference_train_function_59672]
+2025-03-31 09:26:53 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_4/lstm_18/PartitionedCall]] [Op:__inference_train_function_59672]
+
+2025-03-31 09:26:53 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - five_day
+2025-03-31 09:26:53 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [15/15]: AMZN - monthly
+2025-03-31 09:26:54 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 09:26:54 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 09:26:54 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 09:26:54 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 09:26:55 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 0/15 mô hình
+2025-03-31 09:26:55 | INFO     | __main__:_run_predictions:586 - Mô hình intraday cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:26:58 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - intraday: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_5/lstm_20/PartitionedCall]] [Op:__inference_train_function_65714]
+2025-03-31 09:26:58 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[model_5/lstm_20/PartitionedCall]] [Op:__inference_train_function_65714]
+
+2025-03-31 09:26:58 | INFO     | __main__:_run_predictions:606 - Mô hình five_day cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:27:01 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - five_day: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_5/lstm_22/PartitionedCall]] [Op:__inference_train_function_72879]
+2025-03-31 09:27:01 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+Fail to find the dnn implementation.
+	 [[{{node CudnnRNN}}]]
+	 [[sequential_5/lstm_22/PartitionedCall]] [Op:__inference_train_function_72879]
+
+2025-03-31 09:27:02 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:27:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 09:40:36 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 15 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 09:40:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/15]: TSLA - intraday
+2025-03-31 09:40:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-03-31 09:40:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - intraday
+2025-03-31 09:41:06 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình TSLA - intraday
+2025-03-31 09:41:06 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho TSLA - intraday
+2025-03-31 09:41:06 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/15]: TSLA - five_day
+2025-03-31 09:41:06 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-03-31 09:41:06 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - five_day
+2025-03-31 09:41:39 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình TSLA - five_day
+2025-03-31 09:41:39 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho TSLA - five_day
+2025-03-31 09:41:39 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/15]: TSLA - monthly
+2025-03-31 09:41:39 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 09:41:39 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 09:41:39 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 09:41:39 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 09:41:39 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/15]: NVDA - intraday
+2025-03-31 09:41:39 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-03-31 09:41:39 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - intraday
+2025-03-31 09:42:13 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình NVDA - intraday
+2025-03-31 09:42:13 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho NVDA - intraday
+2025-03-31 09:42:13 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/15]: NVDA - five_day
+2025-03-31 09:42:13 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-03-31 09:42:13 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - five_day
+2025-03-31 09:42:36 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình NVDA - five_day
+2025-03-31 09:42:36 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho NVDA - five_day
+2025-03-31 09:42:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [6/15]: NVDA - monthly
+2025-03-31 09:42:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 09:42:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 09:42:36 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 09:42:36 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 09:42:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [7/15]: PLTR - intraday
+2025-03-31 09:42:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-03-31 09:42:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - intraday
+2025-03-31 09:43:20 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình PLTR - intraday
+2025-03-31 09:43:20 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho PLTR - intraday
+2025-03-31 09:43:20 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [8/15]: PLTR - five_day
+2025-03-31 09:43:20 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-03-31 09:43:20 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - five_day
+2025-03-31 09:43:43 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình PLTR - five_day
+2025-03-31 09:43:43 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho PLTR - five_day
+2025-03-31 09:43:43 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [9/15]: PLTR - monthly
+2025-03-31 09:43:44 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 09:43:44 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 09:43:44 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 09:43:44 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 09:43:44 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [10/15]: AGX - intraday
+2025-03-31 09:43:44 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - intraday
+2025-03-31 09:43:44 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - intraday
+2025-03-31 09:45:13 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình AGX - intraday
+2025-03-31 09:45:13 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho AGX - intraday
+2025-03-31 09:45:13 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [11/15]: AGX - five_day
+2025-03-31 09:45:13 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - five_day
+2025-03-31 09:45:13 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - five_day
+2025-03-31 09:45:32 | INFO     | __main__:_check_and_predict:522 - Đang trong quá trình huấn luyện ban đầu, bỏ qua dự đoán
+2025-03-31 09:45:35 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình AGX - five_day
+2025-03-31 09:45:35 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho AGX - five_day
+2025-03-31 09:45:35 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [12/15]: AGX - monthly
+2025-03-31 09:45:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 09:45:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 09:45:36 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 09:45:36 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 09:45:36 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [13/15]: AMZN - intraday
+2025-03-31 09:45:36 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-03-31 09:45:36 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - intraday
+2025-03-31 09:46:05 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình AMZN - intraday
+2025-03-31 09:46:05 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho AMZN - intraday
+2025-03-31 09:46:05 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [14/15]: AMZN - five_day
+2025-03-31 09:46:05 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-03-31 09:46:05 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - five_day
+2025-03-31 09:46:48 | INFO     | models.base_predictor:train:281 - Đã huấn luyện và lưu mô hình AMZN - five_day
+2025-03-31 09:46:48 | INFO     | __main__:_train_model_if_needed:725 - Đã huấn luyện thành công mô hình cho AMZN - five_day
+2025-03-31 09:46:48 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [15/15]: AMZN - monthly
+2025-03-31 09:46:49 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 09:46:49 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 09:46:49 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 09:46:49 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 09:46:49 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 10/15 mô hình
+2025-03-31 09:46:52 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 09:46:52 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 11:22:19 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 5 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 11:22:20 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/5]: TSLA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 11:22:21 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 11:22:21 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/5]: NVDA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 11:22:21 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 11:22:21 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 11:22:21 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/5]: PLTR - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 11:22:22 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 11:22:22 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/5]: AGX - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 11:22:22 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 11:22:22 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 11:22:22 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/5]: AMZN - monthly
+2025-03-31 11:22:23 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 11:22:23 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 11:22:23 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 11:22:23 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 11:22:24 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 0/5 mô hình
+2025-03-31 11:22:26 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 11:22:26 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 15:42:45 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 5 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 15:42:45 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/5]: TSLA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 15:42:46 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 15:42:46 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/5]: NVDA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 15:42:46 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 15:42:46 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 15:42:46 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/5]: PLTR - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 15:42:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 15:42:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/5]: AGX - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 15:42:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 15:42:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 15:42:47 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/5]: AMZN - monthly
+2025-03-31 15:42:48 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 15:42:48 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 15:42:48 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 15:42:48 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 15:42:49 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 0/5 mô hình
+2025-03-31 15:42:51 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 15:42:51 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 15:52:20 | INFO     | __main__:_check_and_train_initial_models:277 - Phát hiện 5 mô hình chưa tồn tại, cần huấn luyện ban đầu
+2025-03-31 15:52:21 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [1/5]: TSLA - monthly
+2025-03-31 15:52:21 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 15:52:21 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 15:52:21 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 15:52:21 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 15:52:21 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [2/5]: NVDA - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 15:52:22 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 15:52:22 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [3/5]: PLTR - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 15:52:22 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 15:52:22 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 15:52:22 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [4/5]: AGX - monthly
+2025-03-31 15:52:23 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 15:52:23 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 15:52:23 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 15:52:23 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 15:52:23 | INFO     | __main__:_check_and_train_initial_models:303 - Đang huấn luyện mô hình [5/5]: AMZN - monthly
+2025-03-31 15:52:24 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 15:52:24 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 15:52:24 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 15:52:24 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 15:52:24 | INFO     | __main__:_check_and_train_initial_models:344 - Hoàn thành huấn luyện ban đầu: 0/5 mô hình
+2025-03-31 15:52:27 | INFO     | __main__:_run_predictions:626 - Mô hình monthly cho TSLA không tồn tại, bắt đầu huấn luyện...
+2025-03-31 15:52:27 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 21:00:00 | INFO     | __main__:_check_weekday_evolution:440 - Bắt đầu kiểm tra tiến hóa mô hình theo lịch trình buổi tối ngày thường...
+2025-03-31 21:00:00 | INFO     | __main__:_evolve_models:797 - Kiểm tra và huấn luyện mô hình trước khi tiến hóa...
+2025-03-31 21:00:00 | INFO     | __main__:_train_all_models:739 - Bắt đầu huấn luyện tất cả các mô hình...
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho TSLA - intraday đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho TSLA - five_day đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-03-31 21:00:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-03-31 21:00:02 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho NVDA - intraday đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho NVDA - five_day đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-03-31 21:00:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-03-31 21:00:02 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho PLTR - intraday đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho PLTR - five_day đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-03-31 21:00:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-03-31 21:00:02 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - intraday
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AGX - intraday đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - five_day
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AGX - five_day đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-03-31 21:00:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-03-31 21:00:02 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AMZN - intraday đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AMZN - five_day đã tồn tại, không cần huấn luyện
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-03-31 21:00:02 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-03-31 21:00:02 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-03-31 21:00:02 | INFO     | __main__:_train_all_models:754 - Đã huấn luyện 10/15 mô hình
+2025-03-31 21:00:03 | INFO     | __main__:_evolve_models:806 - Bắt đầu tiến hóa mô hình...
+2025-03-31 21:00:03 | INFO     | evolution.hyperparameter_tuner:__init__:560 - Khởi tạo ModelEvolutionManager với 5 cổ phiếu
+2025-03-31 21:00:03 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:604 - Bắt đầu tiến hóa tất cả các mô hình tại 2025-03-31T21:00:03.674017
+2025-03-31 21:00:03 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - intraday
+2025-03-31 21:28:38 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - intraday
+2025-03-31 21:28:38 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - five_day
+2025-03-31 21:38:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - five_day
+2025-03-31 21:38:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - monthly
+2025-03-31 21:38:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình TSLA - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-03-31 21:38:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-03-31 21:38:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - intraday
+2025-03-31 22:12:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - intraday
+2025-03-31 22:12:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - five_day
+2025-03-31 22:18:09 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - five_day
+2025-03-31 22:18:09 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - monthly
+2025-03-31 22:18:09 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình NVDA - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-03-31 22:18:09 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-03-31 22:18:09 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - intraday
+2025-03-31 23:00:05 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - intraday
+2025-03-31 23:00:05 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - five_day
+2025-03-31 23:09:54 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - five_day
+2025-03-31 23:09:54 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - monthly
+2025-03-31 23:09:54 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình PLTR - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-03-31 23:09:54 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-03-31 23:09:54 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - intraday
+2025-04-01 00:00:11 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AGX - intraday
+2025-04-01 00:00:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - five_day
+2025-04-01 00:02:40 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AGX - five_day
+2025-04-01 00:02:40 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - monthly
+2025-04-01 00:02:40 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình AGX - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 00:02:40 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 00:02:40 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - intraday
+2025-04-01 00:37:22 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - intraday
+2025-04-01 00:37:22 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - five_day
+2025-04-01 00:39:41 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - five_day
+2025-04-01 00:39:41 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - monthly
+2025-04-01 00:39:41 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình AMZN - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 00:39:41 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 00:39:41 | INFO     | evolution.hyperparameter_tuner:_save_evolution_results:727 - Đã lưu kết quả tiến hóa vào /home/trietvo/BondZiA/evolution/results/evolution_results_20250401_003941.json
+2025-04-01 00:39:41 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:664 - Hoàn thành tiến hóa 10/15 mô hình
+2025-04-01 00:39:41 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:666 - Thời gian tiến hóa: 13177.888746 giây
+2025-04-01 00:39:41 | INFO     | __main__:_save_evolution_status:889 - Đã lưu trạng thái tiến hóa: {'last_evolution_time': '2025-04-01T00:39:41.585639', 'version': '1.0.4'}
+2025-04-01 00:39:42 | INFO     | __main__:_evolve_models:853 - Hoàn thành tiến hóa mô hình. Phiên bản mới: 1.0.6
+2025-04-01 00:39:47 | INFO     | __main__:_check_night_evolution_window:429 - Đang trong cửa sổ tiến hóa buổi sáng sớm, kiểm tra nếu cần tiến hóa mô hình...
+2025-04-01 00:39:47 | INFO     | __main__:_evolve_models:797 - Kiểm tra và huấn luyện mô hình trước khi tiến hóa...
+2025-04-01 00:39:47 | INFO     | __main__:_train_all_models:739 - Bắt đầu huấn luyện tất cả các mô hình...
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho TSLA - intraday đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho TSLA - five_day đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho TSLA - monthly
+2025-04-01 00:39:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-04-01 00:39:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho NVDA - intraday đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho NVDA - five_day đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho NVDA - monthly
+2025-04-01 00:39:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-04-01 00:39:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho PLTR - intraday đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho PLTR - five_day đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho PLTR - monthly
+2025-04-01 00:39:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-04-01 00:39:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - intraday
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AGX - intraday đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - five_day
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AGX - five_day đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AGX - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AGX - monthly
+2025-04-01 00:39:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-04-01 00:39:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AMZN - intraday đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:704 - Mô hình cho AMZN - five_day đã tồn tại, không cần huấn luyện
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:683 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_model_if_needed:708 - Bắt đầu huấn luyện mô hình mới cho AMZN - monthly
+2025-04-01 00:39:47 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-04-01 00:39:47 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 00:39:47 | INFO     | __main__:_train_all_models:754 - Đã huấn luyện 10/15 mô hình
+2025-04-01 00:39:48 | INFO     | __main__:_evolve_models:806 - Bắt đầu tiến hóa mô hình...
+2025-04-01 00:39:49 | INFO     | evolution.hyperparameter_tuner:__init__:560 - Khởi tạo ModelEvolutionManager với 5 cổ phiếu
+2025-04-01 00:39:49 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:604 - Bắt đầu tiến hóa tất cả các mô hình tại 2025-04-01T00:39:49.170362
+2025-04-01 00:39:49 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - intraday
+2025-04-01 02:00:11 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - intraday
+2025-04-01 02:00:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - five_day
+2025-04-01 02:03:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - five_day
+2025-04-01 02:03:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - monthly
+2025-04-01 02:03:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình TSLA - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 02:03:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 02:03:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - intraday
+2025-04-01 02:27:32 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - intraday
+2025-04-01 02:27:32 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - five_day
+2025-04-01 02:34:23 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - five_day
+2025-04-01 02:34:23 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - monthly
+2025-04-01 02:34:23 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình NVDA - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 02:34:23 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 02:34:23 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - intraday
+2025-04-01 03:32:55 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - intraday
+2025-04-01 03:32:55 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - five_day
+2025-04-01 03:43:11 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - five_day
+2025-04-01 03:43:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - monthly
+2025-04-01 03:43:11 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình PLTR - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 03:43:11 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 03:43:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - intraday
+2025-04-01 05:15:11 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AGX - intraday
+2025-04-01 05:15:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - five_day
+2025-04-01 05:19:11 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AGX - five_day
+2025-04-01 05:19:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AGX - monthly
+2025-04-01 05:19:11 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình AGX - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 05:19:11 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 05:19:11 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - intraday
+2025-04-01 06:44:53 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - intraday
+2025-04-01 06:44:53 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - five_day
+2025-04-01 06:50:40 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - five_day
+2025-04-01 06:50:40 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - monthly
+2025-04-01 06:50:40 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình AMZN - monthly: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 06:50:40 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 06:50:40 | INFO     | evolution.hyperparameter_tuner:_save_evolution_results:727 - Đã lưu kết quả tiến hóa vào /home/trietvo/BondZiA/evolution/results/evolution_results_20250401_065040.json
+2025-04-01 06:50:40 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:664 - Hoàn thành tiến hóa 10/15 mô hình
+2025-04-01 06:50:40 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:666 - Thời gian tiến hóa: 22250.928885 giây
+2025-04-01 06:50:40 | INFO     | __main__:_save_evolution_status:889 - Đã lưu trạng thái tiến hóa: {'last_evolution_time': '2025-04-01T06:50:40.114439', 'version': '1.0.4'}
+2025-04-01 06:50:40 | INFO     | __main__:_evolve_models:853 - Hoàn thành tiến hóa mô hình. Phiên bản mới: 1.0.7

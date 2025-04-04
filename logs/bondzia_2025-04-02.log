@@ -1,0 +1,10 @@
+2025-04-02 17:23:59 | ERROR | Không thể tích hợp Telegram: type object 'BondZiA' has no attribute 'discord'
+2025-04-02 17:59:36 | ERROR | Không thể tích hợp Telegram: type object 'BondZiA' has no attribute 'discord'
+2025-04-02 18:03:54 | ERROR | Không thể tích hợp Telegram: type object 'BondZiA' has no attribute 'discord'
+2025-04-02 18:04:35 | INFO | Kiểm tra module Telegram Notifier
+2025-04-02 18:07:41 | INFO | Khởi tạo Telegram Notifier thành công
+2025-04-02 18:07:42 | INFO | Gửi thông báo Telegram thành công!
+2025-04-02 18:10:40 | INFO | Đã patch thành công các phương thức gửi thông báo Discord để gửi qua Telegram
+2025-04-02 18:10:40 | INFO | Đã tích hợp thành công Telegram vào BondZiA
+2025-04-02 18:14:03 | INFO | Đã patch thành công các phương thức gửi thông báo Discord để gửi qua Telegram
+2025-04-02 18:14:03 | INFO | Đã tích hợp thành công Telegram vào BondZiA

@@ -1,0 +1,53 @@
+{
+  "symbol": "MSFT",
+  "timeframe": "monthly",
+  "hyperparameters": {
+    "model_type": "transformer",
+    "num_layers": 4,
+    "units": [
+      256,
+      64,
+      256,
+      32
+    ],
+    "dropout_rates": [
+      0.19886297190282778,
+      0.398680075889005,
+      0.4108381843573944,
+      0.2730787634551689
+    ],
+    "learning_rate": 0.001,
+    "activation": "relu",
+    "batch_size": 32,
+    "dense_layers": 1,
+    "dense_units": [
+      64
+    ],
+    "transformer_layers": 1,
+    "attention_dim": 32,
+    "num_heads": 8,
+    "attention_dropout": 0.2455812957637688,
+    "ffn_dim": 128,
+    "ffn_dropout": 0.15523065861977797,
+    "dense_dropout": 0.3939990786323718
+  },
+  "metrics": {
+    "mse": 41.5671754126854,
+    "rmse": 6.447261078371606,
+    "mae": 5.369116385323658,
+    "mape": 1.3986869413648249,
+    "direction_accuracy": 66.66666666666666
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250404_084610"
+}

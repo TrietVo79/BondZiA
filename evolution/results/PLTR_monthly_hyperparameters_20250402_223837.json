@@ -1,0 +1,52 @@
+{
+  "symbol": "PLTR",
+  "timeframe": "monthly",
+  "hyperparameters": {
+    "model_type": "transformer",
+    "num_layers": 3,
+    "units": [
+      32,
+      64,
+      64
+    ],
+    "dropout_rates": [
+      0.3985510362795057,
+      0.1878678415315027,
+      0.11355487225184985
+    ],
+    "learning_rate": 0.001,
+    "activation": "relu",
+    "batch_size": 32,
+    "dense_layers": 2,
+    "dense_units": [
+      32,
+      128
+    ],
+    "transformer_layers": 1,
+    "attention_dim": 128,
+    "num_heads": 8,
+    "attention_dropout": 0.21149128834068487,
+    "ffn_dim": 64,
+    "ffn_dropout": 0.19619878692245682,
+    "dense_dropout": 0.3865050973773415
+  },
+  "metrics": {
+    "mse": 17.16115663506936,
+    "rmse": 4.142602640257615,
+    "mae": 3.580290963309151,
+    "mape": 3.987386307362207,
+    "direction_accuracy": 66.66666666666666
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250402_223837"
+}

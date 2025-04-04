@@ -1,0 +1,31 @@
+{
+    "intraday": {
+        "sample_count": 14,
+        "mae": 13.112368884277345,
+        "mape": 13.890250704214784,
+        "rmse": 13.112368884277345,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": -1.0
+    },
+    "five_day": {
+        "sample_count": 14,
+        "mae": 15.740893664550782,
+        "mape": 16.674710819886037,
+        "rmse": 15.740893664550784,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0.0,
+        "confidence_correlation": 0
+    },
+    "monthly": {
+        "sample_count": 14,
+        "mae": 23.858851733398435,
+        "mape": 25.274260891864635,
+        "rmse": 23.858851733398435,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0.0,
+        "confidence_correlation": 0
+    },
+    "timestamp": "2025-04-04T16:09:33.700060",
+    "symbol": "NVDA"
+}

@@ -1,0 +1,42 @@
+{
+    "intraday": {
+        "symbol": "TSLA",
+        "timeframe": "intraday",
+        "current_price": 238.86,
+        "predicted_price": 257.24658203125,
+        "price_change_percent": 7.697639634618598,
+        "direction": "up",
+        "confidence": 38.48819817309299,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 7.7%",
+        "timestamp": "2025-04-04T15:05:42.539739",
+        "target_time": "end of trading day"
+    },
+    "current_price": 238.68,
+    "chart_path": "/home/trietvo/BondZiA/charts/TSLA_prediction_20250404_150542.png",
+    "five_day": {
+        "symbol": "TSLA",
+        "timeframe": "five_day",
+        "current_price": 240.33,
+        "predicted_price": 257.1315002441406,
+        "price_change_percent": 6.991012459593314,
+        "direction": "up",
+        "confidence": 34.95506229796657,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 7.0%",
+        "timestamp": "2025-04-04T14:50:41.561063",
+        "target_time": "5 trading days"
+    },
+    "monthly": {
+        "symbol": "TSLA",
+        "timeframe": "monthly",
+        "current_price": 240.33,
+        "predicted_price": 257.7783508300781,
+        "price_change_percent": 7.260163454449345,
+        "direction": "up",
+        "confidence": 36.300817272246725,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 7.3%",
+        "timestamp": "2025-04-04T14:50:42.217730",
+        "target_time": "30 calendar days"
+    },
+    "timestamp": "2025-04-04T15:05:40.552691",
+    "symbol": "TSLA"
+}

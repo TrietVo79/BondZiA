@@ -1,0 +1,354 @@
+2025-04-04 12:51:16 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 12:51:16 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 12:51:16 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 12:51:16 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 12:56:14 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 12:56:14 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:01:15 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:01:15 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:06:14 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:06:14 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:06:18 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:06:18 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:11:50 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:11:50 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:16:52 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:16:52 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:21:16 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:21:16 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:21:54 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:21:54 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:27:25 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:27:25 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:32:27 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:32:27 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:36:18 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:36:18 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:37:31 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:37:31 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:43:02 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:43:02 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:48:05 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:48:05 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:51:20 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:51:20 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:53:08 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:53:08 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 13:58:40 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 13:58:40 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:03:42 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:03:42 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:06:22 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:06:22 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:08:45 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:08:45 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:14:17 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:14:17 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:19:18 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:19:18 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:21:24 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:21:24 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:24:22 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:24:22 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:29:53 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:29:53 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:34:55 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:34:55 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:36:25 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:36:25 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:39:59 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:39:59 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:45:29 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+2025-04-04 14:45:29 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+AttributeError: 'PolygonDataFetcher' object has no attribute 'save_data_to_disk'
+
+2025-04-04 14:50:38 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 14:50:38 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 14:50:38 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 14:50:38 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 14:55:35 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 14:55:35 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:00:37 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:00:37 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:05:36 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:05:36 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:05:40 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:05:40 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:11:13 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:11:13 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:16:14 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:16:14 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:20:38 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:20:38 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:21:17 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:21:17 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:26:49 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:26:49 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:31:50 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:31:50 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:35:40 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:35:40 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:36:54 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:36:54 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:42:25 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:42:25 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:47:27 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:47:27 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:50:42 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:50:42 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:52:31 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:52:31 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 15:58:02 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 15:58:02 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 16:01:01 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 16:01:01 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-04 16:01:05 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-04 16:01:05 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    file_path = os.path.join(self.data_dir, filename)
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+

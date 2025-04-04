@@ -1,0 +1,31 @@
+{
+    "intraday": {
+        "sample_count": 14,
+        "mae": 2.2574457885742163,
+        "mape": 3.0510229634006527,
+        "rmse": 2.2574457885742163,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 1.0
+    },
+    "five_day": {
+        "sample_count": 14,
+        "mae": 12.700187182617185,
+        "mape": 17.16478106795421,
+        "rmse": 12.700187182617185,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0.0,
+        "confidence_correlation": 2.693628172359483e-15
+    },
+    "monthly": {
+        "sample_count": 14,
+        "mae": 10.881621813964841,
+        "mape": 14.706921513458392,
+        "rmse": 10.881621813964843,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0.0,
+        "confidence_correlation": -2.9233044341351272e-15
+    },
+    "timestamp": "2025-04-04T16:09:33.810408",
+    "symbol": "PLTR"
+}

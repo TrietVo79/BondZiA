@@ -1,0 +1,45 @@
+{
+  "symbol": "MSFT",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "lstm",
+    "num_layers": 3,
+    "units": [
+      256,
+      128,
+      256
+    ],
+    "dropout_rates": [
+      0.2901654306119428,
+      0.3661907325257797,
+      0.35098829500533624
+    ],
+    "learning_rate": 0.0001,
+    "activation": "relu",
+    "batch_size": 16,
+    "dense_layers": 2,
+    "dense_units": [
+      32,
+      32
+    ]
+  },
+  "metrics": {
+    "mse": 90.36396542774943,
+    "rmse": 9.505996288014709,
+    "mae": 7.608456333705354,
+    "mape": 1.9697058375015195,
+    "direction_accuracy": 66.66666666666666
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250404_082504"
+}

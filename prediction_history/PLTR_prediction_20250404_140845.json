@@ -1,0 +1,42 @@
+{
+    "intraday": {
+        "symbol": "PLTR",
+        "timeframe": "intraday",
+        "current_price": 81.45,
+        "predicted_price": 76.24724578857422,
+        "price_change_percent": -6.387666312370515,
+        "direction": "down",
+        "confidence": 31.93833156185257,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng gi\u1ea3m g\u1ea7n \u0111\u00e2y; MACD v\u1eeba c\u1eaft xu\u1ed1ng \u0111\u01b0\u1eddng t\u00edn hi\u1ec7u (t\u00edn hi\u1ec7u b\u00e1n); M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 gi\u1ea3m 6.4%",
+        "timestamp": "2025-04-04T14:08:49.541512",
+        "target_time": "end of trading day"
+    },
+    "current_price": 75.27,
+    "chart_path": "/home/trietvo/BondZiA/charts/PLTR_prediction_20250404_140849.png",
+    "five_day": {
+        "symbol": "PLTR",
+        "timeframe": "five_day",
+        "current_price": 74.42,
+        "predicted_price": 86.68998718261719,
+        "price_change_percent": 16.48748613627679,
+        "direction": "up",
+        "confidence": 82.43743068138394,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 16.5%",
+        "timestamp": "2025-04-04T12:51:26.234979",
+        "target_time": "5 trading days"
+    },
+    "monthly": {
+        "symbol": "PLTR",
+        "timeframe": "monthly",
+        "current_price": 74.42,
+        "predicted_price": 84.87142181396484,
+        "price_change_percent": 14.04383474061387,
+        "direction": "up",
+        "confidence": 70.21917370306934,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 14.0%",
+        "timestamp": "2025-04-04T12:51:28.453494",
+        "target_time": "30 calendar days"
+    },
+    "timestamp": "2025-04-04T14:08:45.894908",
+    "symbol": "PLTR"
+}

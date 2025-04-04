@@ -1,0 +1,94 @@
+2025-04-01 18:28:05.060 | INFO     | __main__:__init__:60 - Khởi tạo HistoricalDataLoader thành công
+2025-04-01 18:28:05.060 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho TSLA
+2025-04-01 18:28:05.060 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho TSLA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:06.330 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho TSLA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:06.373 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho TSLA tại /home/trietvo/BondZiA/data/processed/TSLA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:06.874 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho NVDA
+2025-04-01 18:28:06.875 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho NVDA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:08.110 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho NVDA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:08.153 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho NVDA tại /home/trietvo/BondZiA/data/processed/NVDA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:08.654 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho PLTR
+2025-04-01 18:28:08.654 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho PLTR từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:09.808 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1131 bars cho PLTR từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:09.843 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho PLTR tại /home/trietvo/BondZiA/data/processed/PLTR_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:10.344 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AGX
+2025-04-01 18:28:10.344 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AGX từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:11.340 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AGX từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:11.378 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AGX tại /home/trietvo/BondZiA/data/processed/AGX_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:11.879 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho META
+2025-04-01 18:28:11.880 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho META từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:12.901 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 853 bars cho META từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:12.930 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho META tại /home/trietvo/BondZiA/data/processed/META_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:13.431 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AMZN
+2025-04-01 18:28:13.432 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AMZN từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:14.734 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AMZN từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:14.774 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AMZN tại /home/trietvo/BondZiA/data/processed/AMZN_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:15.275 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AAPL
+2025-04-01 18:28:15.276 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AAPL từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:16.500 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AAPL từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:16.541 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AAPL tại /home/trietvo/BondZiA/data/processed/AAPL_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:17.042 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho IBM
+2025-04-01 18:28:17.043 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho IBM từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:18.329 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho IBM từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:18.372 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho IBM tại /home/trietvo/BondZiA/data/processed/IBM_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:18.873 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho BABA
+2025-04-01 18:28:18.874 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho BABA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:20.111 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho BABA từ 2020-04-02 đến 2025-04-01
+2025-04-01 18:28:20.153 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho BABA tại /home/trietvo/BondZiA/data/processed/BABA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 18:28:20.654 | INFO     | __main__:load_data_for_all_stocks:289 - Đã tải xong dữ liệu cho 9/9 cổ phiếu
+2025-04-01 18:28:20.655 | INFO     | __main__:<module>:303 - TSLA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.655 | INFO     | __main__:<module>:303 - NVDA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.656 | INFO     | __main__:<module>:303 - PLTR: 1112 dòng dữ liệu từ 2020-10-27 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.656 | INFO     | __main__:<module>:303 - AGX: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.657 | INFO     | __main__:<module>:303 - META: 834 dòng dữ liệu từ 2021-07-28 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.657 | INFO     | __main__:<module>:303 - AMZN: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.658 | INFO     | __main__:<module>:303 - AAPL: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.658 | INFO     | __main__:<module>:303 - IBM: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 18:28:20.659 | INFO     | __main__:<module>:303 - BABA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:35.105 | INFO     | __main__:__init__:60 - Khởi tạo HistoricalDataLoader thành công
+2025-04-01 20:03:35.106 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho TSLA
+2025-04-01 20:03:35.106 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho TSLA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:36.344 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho TSLA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:36.388 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho TSLA tại /home/trietvo/BondZiA/data/processed/TSLA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:36.889 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho NVDA
+2025-04-01 20:03:36.890 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho NVDA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:38.109 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho NVDA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:38.153 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho NVDA tại /home/trietvo/BondZiA/data/processed/NVDA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:38.654 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho PLTR
+2025-04-01 20:03:38.655 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho PLTR từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:39.742 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1131 bars cho PLTR từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:39.779 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho PLTR tại /home/trietvo/BondZiA/data/processed/PLTR_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:40.280 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AGX
+2025-04-01 20:03:40.280 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AGX từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:41.401 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AGX từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:41.442 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AGX tại /home/trietvo/BondZiA/data/processed/AGX_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:41.943 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho META
+2025-04-01 20:03:41.944 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho META từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:43.082 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 853 bars cho META từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:43.113 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho META tại /home/trietvo/BondZiA/data/processed/META_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:43.614 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AMZN
+2025-04-01 20:03:43.615 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AMZN từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:44.863 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AMZN từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:44.903 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AMZN tại /home/trietvo/BondZiA/data/processed/AMZN_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:45.404 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho AAPL
+2025-04-01 20:03:45.404 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho AAPL từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:46.696 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho AAPL từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:46.740 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho AAPL tại /home/trietvo/BondZiA/data/processed/AAPL_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:47.241 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho MSFT
+2025-04-01 20:03:47.242 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho MSFT từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:48.428 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho MSFT từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:48.472 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho MSFT tại /home/trietvo/BondZiA/data/processed/MSFT_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:48.973 | INFO     | __main__:load_data_for_all_stocks:279 - Tải dữ liệu cho BABA
+2025-04-01 20:03:48.974 | INFO     | __main__:load_and_save_historical_data:229 - Tải dữ liệu lịch sử cho BABA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:50.196 | INFO     | __main__:_get_polygon_bars:111 - Đã lấy 1256 bars cho BABA từ 2020-04-02 đến 2025-04-01
+2025-04-01 20:03:50.240 | INFO     | __main__:load_and_save_historical_data:257 - Đã lưu dữ liệu lịch sử cho BABA tại /home/trietvo/BondZiA/data/processed/BABA_daily_processed_2020-04-02_2025-04-01.csv
+2025-04-01 20:03:50.741 | INFO     | __main__:load_data_for_all_stocks:289 - Đã tải xong dữ liệu cho 9/9 cổ phiếu
+2025-04-01 20:03:50.742 | INFO     | __main__:<module>:303 - TSLA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.743 | INFO     | __main__:<module>:303 - NVDA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.744 | INFO     | __main__:<module>:303 - PLTR: 1112 dòng dữ liệu từ 2020-10-27 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.744 | INFO     | __main__:<module>:303 - AGX: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.745 | INFO     | __main__:<module>:303 - META: 834 dòng dữ liệu từ 2021-07-28 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.745 | INFO     | __main__:<module>:303 - AMZN: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.746 | INFO     | __main__:<module>:303 - AAPL: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.746 | INFO     | __main__:<module>:303 - MSFT: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00
+2025-04-01 20:03:50.747 | INFO     | __main__:<module>:303 - BABA: 1237 dòng dữ liệu từ 2020-04-30 04:00:00 đến 2025-04-01 04:00:00

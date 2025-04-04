@@ -1,0 +1,647 @@
+{
+  "total_models": 15,
+  "successful_evolutions": 13,
+  "failed_evolutions": 2,
+  "model_results": {
+    "TSLA": {
+      "five_day": {
+        "symbol": "TSLA",
+        "timeframe": "five_day",
+        "hyperparameters": {
+          "model_type": "lstm",
+          "num_layers": 1,
+          "units": [
+            64
+          ],
+          "dropout_rates": [
+            0.34498323372529016
+          ],
+          "learning_rate": 0.005,
+          "activation": "relu",
+          "batch_size": 64,
+          "dense_layers": 1,
+          "dense_units": [
+            16
+          ]
+        },
+        "metrics": {
+          "mse": 201.75300050338296,
+          "rmse": 14.20397833367057,
+          "mae": 12.354214041573657,
+          "mape": 4.52046499136916,
+          "direction_accuracy": 50.0
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_004517"
+      },
+      "monthly": {
+        "symbol": "TSLA",
+        "timeframe": "monthly",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 3,
+          "units": [
+            128,
+            256,
+            256
+          ],
+          "dropout_rates": [
+            0.27440202757807924,
+            0.410631073152276,
+            0.45132534378537015
+          ],
+          "learning_rate": 0.01,
+          "activation": "relu",
+          "batch_size": 16,
+          "dense_layers": 3,
+          "dense_units": [
+            64,
+            128,
+            32
+          ],
+          "transformer_layers": 2,
+          "attention_dim": 128,
+          "num_heads": 4,
+          "attention_dropout": 0.12405660612995972,
+          "ffn_dim": 256,
+          "ffn_dropout": 0.18965158893919337,
+          "dense_dropout": 0.3340608579346511
+        },
+        "metrics": {
+          "mse": 186.18875500073221,
+          "rmse": 13.645100036303589,
+          "mae": 11.707363455636157,
+          "mape": 4.280272743018677,
+          "direction_accuracy": 50.0
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_005507"
+      }
+    },
+    "NVDA": {
+      "intraday": {
+        "symbol": "NVDA",
+        "timeframe": "intraday",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 1,
+          "units": [
+            64
+          ],
+          "dropout_rates": [
+            0.10501124737530976
+          ],
+          "learning_rate": 0.0005,
+          "activation": "relu",
+          "batch_size": 32,
+          "dense_layers": 3,
+          "dense_units": [
+            128,
+            32,
+            64
+          ],
+          "transformer_layers": 1,
+          "attention_dim": 32,
+          "num_heads": 4,
+          "attention_dropout": 0.24206008476088073,
+          "ffn_dim": 256,
+          "ffn_dropout": 0.24134448011532872,
+          "dense_dropout": 0.21573060220737017
+        },
+        "metrics": {
+          "mse": 4.2448198436530955,
+          "rmse": 2.0602960572823257,
+          "mae": 1.779525412270404,
+          "mape": 1.6211171724675753,
+          "direction_accuracy": 46.524064171122994
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_024945"
+      },
+      "five_day": {
+        "symbol": "NVDA",
+        "timeframe": "five_day",
+        "hyperparameters": {
+          "model_type": "lstm",
+          "num_layers": 2,
+          "units": [
+            128,
+            32
+          ],
+          "dropout_rates": [
+            0.27485952297313243,
+            0.3179280114505302
+          ],
+          "learning_rate": 0.001,
+          "activation": "relu",
+          "batch_size": 16,
+          "dense_layers": 3,
+          "dense_units": [
+            64,
+            16,
+            64
+          ]
+        },
+        "metrics": {
+          "mse": 12.532650475067024,
+          "rmse": 3.5401483690753732,
+          "mae": 2.2527580479213225,
+          "mape": 2.1209919174254224,
+          "direction_accuracy": 66.66666666666666
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_030722"
+      },
+      "monthly": {
+        "symbol": "NVDA",
+        "timeframe": "monthly",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 2,
+          "units": [
+            128,
+            64
+          ],
+          "dropout_rates": [
+            0.2601407197588952,
+            0.4279846441914158
+          ],
+          "learning_rate": 0.005,
+          "activation": "relu",
+          "batch_size": 32,
+          "dense_layers": 3,
+          "dense_units": [
+            16,
+            32,
+            64
+          ],
+          "transformer_layers": 3,
+          "attention_dim": 128,
+          "num_heads": 4,
+          "attention_dropout": 0.17049892496686014,
+          "ffn_dim": 256,
+          "ffn_dropout": 0.2175395672298473,
+          "dense_dropout": 0.33897098765924405
+        },
+        "metrics": {
+          "mse": 90.9004230563133,
+          "rmse": 9.534171335586187,
+          "mae": 8.885794590541291,
+          "mape": 8.23670535821798,
+          "direction_accuracy": 66.66666666666666
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_031253"
+      }
+    },
+    "PLTR": {
+      "intraday": {
+        "symbol": "PLTR",
+        "timeframe": "intraday",
+        "hyperparameters": {
+          "model_type": "gru",
+          "num_layers": 1,
+          "units": [
+            128
+          ],
+          "dropout_rates": [
+            0.4287047307676678
+          ],
+          "learning_rate": 0.0005,
+          "activation": "relu",
+          "batch_size": 64,
+          "dense_layers": 3,
+          "dense_units": [
+            16,
+            16,
+            128
+          ]
+        },
+        "metrics": {
+          "mse": 9.302166512986085,
+          "rmse": 3.049945329507741,
+          "mae": 2.7469030258018092,
+          "mape": 3.4502310734236032,
+          "direction_accuracy": 50.264550264550266
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_045622"
+      },
+      "monthly": {
+        "symbol": "PLTR",
+        "timeframe": "monthly",
+        "hyperparameters": {
+          "model_type": "lstm",
+          "num_layers": 4,
+          "units": [
+            128,
+            64,
+            256,
+            32
+          ],
+          "dropout_rates": [
+            0.4541669340057297,
+            0.19927258033886053,
+            0.4839416425122266,
+            0.45069070022394986
+          ],
+          "learning_rate": 0.005,
+          "activation": "relu",
+          "batch_size": 32,
+          "dense_layers": 2,
+          "dense_units": [
+            64,
+            16
+          ]
+        },
+        "metrics": {
+          "mse": 13.086094859515342,
+          "rmse": 3.617470782123242,
+          "mae": 2.588368312290736,
+          "mape": 2.8878494682896987,
+          "direction_accuracy": 66.66666666666666
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_050908"
+      }
+    },
+    "AMZN": {
+      "intraday": {
+        "symbol": "AMZN",
+        "timeframe": "intraday",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 4,
+          "units": [
+            32,
+            32,
+            256,
+            128
+          ],
+          "dropout_rates": [
+            0.47428707853689,
+            0.31054841234444486,
+            0.38578264071102286,
+            0.34697977404694413
+          ],
+          "learning_rate": 0.01,
+          "activation": "relu",
+          "batch_size": 64,
+          "dense_layers": 2,
+          "dense_units": [
+            16,
+            64
+          ],
+          "transformer_layers": 1,
+          "attention_dim": 64,
+          "num_heads": 4,
+          "attention_dropout": 0.13153459008351295,
+          "ffn_dim": 64,
+          "ffn_dropout": 0.2035574163113679,
+          "dense_dropout": 0.3563675987963525
+        },
+        "metrics": {
+          "mse": 1.0616596221806807,
+          "rmse": 1.030368682647469,
+          "mae": 0.7393244229892275,
+          "mape": 0.37151394433506785,
+          "direction_accuracy": 49.11504424778761
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_070055"
+      },
+      "five_day": {
+        "symbol": "AMZN",
+        "timeframe": "five_day",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 3,
+          "units": [
+            64,
+            64,
+            32
+          ],
+          "dropout_rates": [
+            0.19755315574047816,
+            0.13284299020837703,
+            0.3890404926277611
+          ],
+          "learning_rate": 0.001,
+          "activation": "relu",
+          "batch_size": 16,
+          "dense_layers": 3,
+          "dense_units": [
+            16,
+            16,
+            64
+          ],
+          "transformer_layers": 2,
+          "attention_dim": 32,
+          "num_heads": 2,
+          "attention_dropout": 0.26301953541648315,
+          "ffn_dim": 256,
+          "ffn_dropout": 0.220420675263382,
+          "dense_dropout": 0.3604613052336716
+        },
+        "metrics": {
+          "mse": 64.62429107151665,
+          "rmse": 8.03892350203164,
+          "mae": 6.720436401367185,
+          "mape": 3.474226740872114,
+          "direction_accuracy": 50.0
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_070748"
+      },
+      "monthly": {
+        "symbol": "AMZN",
+        "timeframe": "monthly",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 1,
+          "units": [
+            128
+          ],
+          "dropout_rates": [
+            0.4277654599681725
+          ],
+          "learning_rate": 0.001,
+          "activation": "relu",
+          "batch_size": 16,
+          "dense_layers": 2,
+          "dense_units": [
+            128,
+            32
+          ],
+          "transformer_layers": 3,
+          "attention_dim": 64,
+          "num_heads": 8,
+          "attention_dropout": 0.2586019986896684,
+          "ffn_dim": 128,
+          "ffn_dropout": 0.24838350571389362,
+          "dense_dropout": 0.1468258612508894
+        },
+        "metrics": {
+          "mse": 64.89336858794499,
+          "rmse": 8.055642034496381,
+          "mae": 6.747651541573658,
+          "mape": 3.487879715809302,
+          "direction_accuracy": 50.0
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_072001"
+      }
+    },
+    "MSFT": {
+      "intraday": {
+        "symbol": "MSFT",
+        "timeframe": "intraday",
+        "hyperparameters": {
+          "model_type": "lstm",
+          "num_layers": 4,
+          "units": [
+            128,
+            64,
+            64,
+            32
+          ],
+          "dropout_rates": [
+            0.46852181475667964,
+            0.41167955837279613,
+            0.3805221179457744,
+            0.18869041702201358
+          ],
+          "learning_rate": 0.001,
+          "activation": "relu",
+          "batch_size": 128,
+          "dense_layers": 1,
+          "dense_units": [
+            128
+          ]
+        },
+        "metrics": {
+          "mse": 10.411234121892392,
+          "rmse": 3.2266444058638366,
+          "mae": 2.7308830322982023,
+          "mape": 0.71224441275791,
+          "direction_accuracy": 50.0
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_081647"
+      },
+      "five_day": {
+        "symbol": "MSFT",
+        "timeframe": "five_day",
+        "hyperparameters": {
+          "model_type": "lstm",
+          "num_layers": 3,
+          "units": [
+            256,
+            128,
+            256
+          ],
+          "dropout_rates": [
+            0.2901654306119428,
+            0.3661907325257797,
+            0.35098829500533624
+          ],
+          "learning_rate": 0.0001,
+          "activation": "relu",
+          "batch_size": 16,
+          "dense_layers": 2,
+          "dense_units": [
+            32,
+            32
+          ]
+        },
+        "metrics": {
+          "mse": 90.36396542774943,
+          "rmse": 9.505996288014709,
+          "mae": 7.608456333705354,
+          "mape": 1.9697058375015195,
+          "direction_accuracy": 66.66666666666666
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_082504"
+      },
+      "monthly": {
+        "symbol": "MSFT",
+        "timeframe": "monthly",
+        "hyperparameters": {
+          "model_type": "transformer",
+          "num_layers": 4,
+          "units": [
+            256,
+            64,
+            256,
+            32
+          ],
+          "dropout_rates": [
+            0.19886297190282778,
+            0.398680075889005,
+            0.4108381843573944,
+            0.2730787634551689
+          ],
+          "learning_rate": 0.001,
+          "activation": "relu",
+          "batch_size": 32,
+          "dense_layers": 1,
+          "dense_units": [
+            64
+          ],
+          "transformer_layers": 1,
+          "attention_dim": 32,
+          "num_heads": 8,
+          "attention_dropout": 0.2455812957637688,
+          "ffn_dim": 128,
+          "ffn_dropout": 0.15523065861977797,
+          "dense_dropout": 0.3939990786323718
+        },
+        "metrics": {
+          "mse": 41.5671754126854,
+          "rmse": 6.447261078371606,
+          "mae": 5.369116385323658,
+          "mape": 1.3986869413648249,
+          "direction_accuracy": 66.66666666666666
+        },
+        "features_used": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "rsi_14",
+          "macd",
+          "sma_20",
+          "ema_9"
+        ],
+        "timestamp": "20250404_084610"
+      }
+    }
+  },
+  "version": "1.0.14",
+  "start_time": "2025-04-04T00:18:47.231263",
+  "end_time": "2025-04-04T08:46:10.515241",
+  "total_params_changed": 166,
+  "elapsed_time": 30443.283978
+}

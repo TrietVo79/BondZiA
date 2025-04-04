@@ -1,0 +1,13 @@
+Timestamp: 2025-03-31T01:08:22.975744
+Error Type: KeyError
+Error Value: 'system'
+Traceback:
+Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 543, in <module>
+    bondzia = BondZiA(config_path=args.config)
+  File "/home/trietvo/BondZiA/main.py", line 88, in __init__
+    self.version_manager = VersionManager(config_path=self.config_path)
+  File "/home/trietvo/BondZiA/evolution/version_manager.py", line 35, in __init__
+    self.max_versions = self.config['system']['max_versions_to_keep']
+KeyError: 'system'
+

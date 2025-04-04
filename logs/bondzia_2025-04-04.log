@@ -1,0 +1,1164 @@
+2025-04-04 15:03:16 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:16 | INFO | Đánh giá độ chính xác cho NVDA trong 30 ngày qua
+2025-04-04 15:03:16 | INFO | Đã tải 10 dự đoán cho NVDA
+2025-04-04 15:03:16 | INFO | Tìm kiếm giá thực tế cho NVDA từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:16 | INFO | Đang đọc file CSV: NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:16 | INFO | Đã tìm thấy 22 record trong file NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:16 | INFO | Đang đọc file CSV: NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:16 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:16 | INFO | Đang đọc file CSV: NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:16 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:16 | INFO | Đã tải 60 giá thực tế cho NVDA
+2025-04-04 15:03:16 | INFO | Đang đánh giá NVDA - intraday
+2025-04-04 15:03:16 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:16 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:16 | INFO | Đang đánh giá NVDA - five_day
+2025-04-04 15:03:16 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:16 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:16 | INFO | Đang đánh giá NVDA - monthly
+2025-04-04 15:03:16 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:16 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:16 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:16 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_20250404.json
+2025-04-04 15:03:16 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_summary.json
+2025-04-04 15:03:16 | INFO | Đánh dấu NVDA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:16 | INFO | Đánh dấu NVDA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:16 | INFO | Đánh dấu NVDA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:26 | INFO | Đánh giá độ chính xác cho NVDA trong 30 ngày qua
+2025-04-04 15:03:26 | INFO | Đã tải 10 dự đoán cho NVDA
+2025-04-04 15:03:26 | INFO | Tìm kiếm giá thực tế cho NVDA từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 22 record trong file NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tải 60 giá thực tế cho NVDA
+2025-04-04 15:03:26 | INFO | Đang đánh giá NVDA - intraday
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá NVDA - five_day
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá NVDA - monthly
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_20250404.json
+2025-04-04 15:03:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_summary.json
+2025-04-04 15:03:26 | INFO | Đánh dấu NVDA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu NVDA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu NVDA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:26 | INFO | Đánh giá độ chính xác cho TSLA trong 30 ngày qua
+2025-04-04 15:03:26 | INFO | Đã tải 10 dự đoán cho TSLA
+2025-04-04 15:03:26 | INFO | Tìm kiếm giá thực tế cho TSLA từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: TSLA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 22 record trong file TSLA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: TSLA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file TSLA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: TSLA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file TSLA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tải 60 giá thực tế cho TSLA
+2025-04-04 15:03:26 | INFO | Đang đánh giá TSLA - intraday
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.33 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá TSLA - five_day
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.33 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá TSLA - monthly
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.33 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/TSLA_accuracy_20250404.json
+2025-04-04 15:03:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/TSLA_accuracy_summary.json
+2025-04-04 15:03:26 | INFO | Đánh dấu TSLA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu TSLA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu TSLA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:26 | INFO | Đánh giá độ chính xác cho MSFT trong 30 ngày qua
+2025-04-04 15:03:26 | INFO | Đã tải 10 dự đoán cho MSFT
+2025-04-04 15:03:26 | INFO | Tìm kiếm giá thực tế cho MSFT từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: MSFT_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file MSFT_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: MSFT_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 22 record trong file MSFT_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: MSFT_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file MSFT_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tải 60 giá thực tế cho MSFT
+2025-04-04 15:03:26 | INFO | Đang đánh giá MSFT - intraday
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $382.51 với giá thực tế $361.54 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá MSFT - five_day
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $374.54 với giá thực tế $361.54 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá MSFT - monthly
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $380.00 với giá thực tế $361.54 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/MSFT_accuracy_20250404.json
+2025-04-04 15:03:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/MSFT_accuracy_summary.json
+2025-04-04 15:03:26 | INFO | Đánh dấu MSFT - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%)
+2025-04-04 15:03:26 | INFO | Đánh dấu MSFT - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu MSFT - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:26 | INFO | Đánh giá độ chính xác cho AMZN trong 30 ngày qua
+2025-04-04 15:03:26 | INFO | Đã tải 10 dự đoán cho AMZN
+2025-04-04 15:03:26 | INFO | Tìm kiếm giá thực tế cho AMZN từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: AMZN_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 22 record trong file AMZN_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: AMZN_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file AMZN_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: AMZN_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file AMZN_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tải 60 giá thực tế cho AMZN
+2025-04-04 15:03:26 | INFO | Đang đánh giá AMZN - intraday
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.75 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá AMZN - five_day
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.75 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá AMZN - monthly
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.75 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/AMZN_accuracy_20250404.json
+2025-04-04 15:03:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/AMZN_accuracy_summary.json
+2025-04-04 15:03:26 | INFO | Đánh dấu AMZN - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu AMZN - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu AMZN - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 15:03:26 | INFO | Đánh giá độ chính xác cho PLTR trong 30 ngày qua
+2025-04-04 15:03:26 | INFO | Đã tải 10 dự đoán cho PLTR
+2025-04-04 15:03:26 | INFO | Tìm kiếm giá thực tế cho PLTR từ 2025-03-05 đến 2025-04-04
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: PLTR_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file PLTR_daily_2020-04-02_2025-04-01.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: PLTR_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 22 record trong file PLTR_daily_2025-01-06_2025-04-04.csv
+2025-04-04 15:03:26 | INFO | Đang đọc file CSV: PLTR_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tìm thấy 19 record trong file PLTR_daily_2015-04-05_2025-04-02.csv
+2025-04-04 15:03:26 | INFO | Đã tải 60 giá thực tế cho PLTR
+2025-04-04 15:03:26 | INFO | Đang đánh giá PLTR - intraday
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $76.25 với giá thực tế $74.08 (khớp chính xác ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá PLTR - five_day
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $86.69 với giá thực tế $74.08 (chênh lệch 7 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đang đánh giá PLTR - monthly
+2025-04-04 15:03:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 15:03:26 | INFO | Khớp: dự đoán $84.87 với giá thực tế $74.08 (chênh lệch 30 ngày)
+2025-04-04 15:03:26 | INFO | Đã khớp 10 dự đoán với giá thực tế
+2025-04-04 15:03:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/PLTR_accuracy_20250404.json
+2025-04-04 15:03:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/PLTR_accuracy_summary.json
+2025-04-04 15:03:26 | INFO | Đánh dấu PLTR - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu PLTR - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 15:03:26 | INFO | Đánh dấu PLTR - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 16:09:26 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:26 | INFO | Đánh giá độ chính xác cho NVDA trong 30 ngày qua
+2025-04-04 16:09:26 | INFO | Đã tải 14 dự đoán cho NVDA
+2025-04-04 16:09:26 | INFO | Tìm kiếm giá thực tế cho NVDA từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:26 | INFO | Đang đọc file CSV: NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:26 | INFO | Đã tìm thấy 22 record trong file NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:26 | INFO | Đang đọc file CSV: NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:26 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:26 | INFO | Đang đọc file CSV: NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:26 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:26 | INFO | Đã tải 60 giá thực tế cho NVDA
+2025-04-04 16:09:26 | INFO | Đang đánh giá NVDA - intraday
+2025-04-04 16:09:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:26 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:26 | INFO | Đang đánh giá NVDA - five_day
+2025-04-04 16:09:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:26 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:26 | INFO | Đang đánh giá NVDA - monthly
+2025-04-04 16:09:26 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:26 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:26 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:26 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_20250404.json
+2025-04-04 16:09:26 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_summary.json
+2025-04-04 16:09:26 | INFO | Đánh dấu NVDA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-1.00)
+2025-04-04 16:09:26 | INFO | Đánh dấu NVDA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:26 | INFO | Đánh dấu NVDA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:33 | INFO | Đánh giá độ chính xác cho NVDA trong 30 ngày qua
+2025-04-04 16:09:33 | INFO | Đã tải 14 dự đoán cho NVDA
+2025-04-04 16:09:33 | INFO | Tìm kiếm giá thực tế cho NVDA từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 22 record trong file NVDA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file NVDA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tải 60 giá thực tế cho NVDA
+2025-04-04 16:09:33 | INFO | Đang đánh giá NVDA - intraday
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $107.51 với giá thực tế $94.40 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá NVDA - five_day
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $110.14 với giá thực tế $94.40 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá NVDA - monthly
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $118.26 với giá thực tế $94.40 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_20250404.json
+2025-04-04 16:09:33 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/NVDA_accuracy_summary.json
+2025-04-04 16:09:33 | INFO | Đánh dấu NVDA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-1.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu NVDA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu NVDA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:33 | INFO | Đánh giá độ chính xác cho TSLA trong 30 ngày qua
+2025-04-04 16:09:33 | INFO | Đã tải 14 dự đoán cho TSLA
+2025-04-04 16:09:33 | INFO | Tìm kiếm giá thực tế cho TSLA từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: TSLA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 22 record trong file TSLA_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: TSLA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file TSLA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: TSLA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file TSLA_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tải 60 giá thực tế cho TSLA
+2025-04-04 16:09:33 | INFO | Đang đánh giá TSLA - intraday
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.25 với giá thực tế $240.26 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá TSLA - five_day
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.13 với giá thực tế $240.26 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá TSLA - monthly
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $257.78 với giá thực tế $240.26 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/TSLA_accuracy_20250404.json
+2025-04-04 16:09:33 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/TSLA_accuracy_summary.json
+2025-04-04 16:09:33 | INFO | Đánh dấu TSLA - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu TSLA - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu TSLA - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 16:09:33 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:33 | INFO | Đánh giá độ chính xác cho MSFT trong 30 ngày qua
+2025-04-04 16:09:33 | INFO | Đã tải 14 dự đoán cho MSFT
+2025-04-04 16:09:33 | INFO | Tìm kiếm giá thực tế cho MSFT từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: MSFT_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file MSFT_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: MSFT_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 22 record trong file MSFT_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: MSFT_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file MSFT_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tải 60 giá thực tế cho MSFT
+2025-04-04 16:09:33 | INFO | Đang đánh giá MSFT - intraday
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $382.51 với giá thực tế $362.44 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá MSFT - five_day
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $374.54 với giá thực tế $362.44 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá MSFT - monthly
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $380.00 với giá thực tế $362.44 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/MSFT_accuracy_20250404.json
+2025-04-04 16:09:33 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/MSFT_accuracy_summary.json
+2025-04-04 16:09:33 | INFO | Đánh dấu MSFT - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%)
+2025-04-04 16:09:33 | INFO | Đánh dấu MSFT - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu MSFT - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 16:09:33 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:33 | INFO | Đánh giá độ chính xác cho AMZN trong 30 ngày qua
+2025-04-04 16:09:33 | INFO | Đã tải 14 dự đoán cho AMZN
+2025-04-04 16:09:33 | INFO | Tìm kiếm giá thực tế cho AMZN từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: AMZN_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 22 record trong file AMZN_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: AMZN_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file AMZN_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: AMZN_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file AMZN_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tải 60 giá thực tế cho AMZN
+2025-04-04 16:09:33 | INFO | Đang đánh giá AMZN - intraday
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $198.28 với giá thực tế $173.93 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá AMZN - five_day
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.64 với giá thực tế $173.93 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá AMZN - monthly
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $189.60 với giá thực tế $173.93 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/AMZN_accuracy_20250404.json
+2025-04-04 16:09:33 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/AMZN_accuracy_summary.json
+2025-04-04 16:09:33 | INFO | Đánh dấu AMZN - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu AMZN - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu AMZN - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Khởi tạo AccuracyEvaluator thành công
+2025-04-04 16:09:33 | INFO | Đánh giá độ chính xác cho PLTR trong 30 ngày qua
+2025-04-04 16:09:33 | INFO | Đã tải 14 dự đoán cho PLTR
+2025-04-04 16:09:33 | INFO | Tìm kiếm giá thực tế cho PLTR từ 2025-03-05 đến 2025-04-04
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: PLTR_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file PLTR_daily_2020-04-02_2025-04-01.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: PLTR_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 22 record trong file PLTR_daily_2025-01-06_2025-04-04.csv
+2025-04-04 16:09:33 | INFO | Đang đọc file CSV: PLTR_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tìm thấy 19 record trong file PLTR_daily_2015-04-05_2025-04-02.csv
+2025-04-04 16:09:33 | INFO | Đã tải 60 giá thực tế cho PLTR
+2025-04-04 16:09:33 | INFO | Đang đánh giá PLTR - intraday
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-04 16:00:00.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-04 16:00:00.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-04 16:00:00.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-04 16:00:00.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-04 16:00:00.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-04 16:00:00.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-04 16:00:00.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-04 16:00:00.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-04 16:00:00.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-04 16:00:00.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-04 16:00:00.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-04 16:00:00.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-04 16:00:00.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán intraday từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-04 16:00:00.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $76.25 với giá thực tế $73.99 (khớp chính xác ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá PLTR - five_day
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-04-11 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-04-11 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-04-11 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-04-11 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-04-11 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-04-11 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-04-11 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-04-11 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-04-11 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-04-11 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-04-11 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-04-11 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-04-11 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán five_day từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-04-11 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $86.69 với giá thực tế $73.99 (chênh lệch 7 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đang đánh giá PLTR - monthly
+2025-04-04 16:09:33 | INFO | Đã chuyển đổi 60 giá thực tế thành dict theo ngày
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:06:18.652695 mục tiêu tại 2025-05-04 13:06:18.652695
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:50:38.672102 mục tiêu tại 2025-05-04 14:50:38.672102
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:52:31.215341 mục tiêu tại 2025-05-04 15:52:31.215341
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:37:31.477387 mục tiêu tại 2025-05-04 13:37:31.477387
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:53:08.977653 mục tiêu tại 2025-05-04 13:53:08.977653
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:24:22.621491 mục tiêu tại 2025-05-04 14:24:22.621491
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 13:21:54.948840 mục tiêu tại 2025-05-04 13:21:54.948840
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:08:45.894908 mục tiêu tại 2025-05-04 14:08:45.894908
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:05:40.552691 mục tiêu tại 2025-05-04 15:05:40.552691
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 11:30:17.990138 mục tiêu tại 2025-05-04 11:30:17.990138
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 14:39:59.189861 mục tiêu tại 2025-05-04 14:39:59.189861
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:21:17.910973 mục tiêu tại 2025-05-04 15:21:17.910973
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 12:51:16.827123 mục tiêu tại 2025-05-04 12:51:16.827123
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Dự đoán monthly từ 2025-04-04 15:36:54.709801 mục tiêu tại 2025-05-04 15:36:54.709801
+2025-04-04 16:09:33 | INFO | Khớp: dự đoán $84.87 với giá thực tế $73.99 (chênh lệch 30 ngày)
+2025-04-04 16:09:33 | INFO | Đã khớp 14 dự đoán với giá thực tế
+2025-04-04 16:09:33 | INFO | Đã lưu kết quả đánh giá vào /home/trietvo/BondZiA/prediction_stats/PLTR_accuracy_20250404.json
+2025-04-04 16:09:33 | INFO | Đã cập nhật tệp tổng hợp /home/trietvo/BondZiA/prediction_stats/PLTR_accuracy_summary.json
+2025-04-04 16:09:33 | INFO | Đánh dấu PLTR - intraday cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%)
+2025-04-04 16:09:33 | INFO | Đánh dấu PLTR - five_day cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (0.00)
+2025-04-04 16:09:33 | INFO | Đánh dấu PLTR - monthly cần điều chỉnh: Độ chính xác theo hướng thấp (0.0%); Tương quan độ tin cậy yếu (-0.00)

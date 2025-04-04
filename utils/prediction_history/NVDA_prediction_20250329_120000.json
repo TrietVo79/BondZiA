@@ -1,0 +1,13 @@
+[
+    {
+        "symbol": "NVDA",
+        "timeframe": "five_day",
+        "prediction_date": "2025-03-29T14:52:38.922548",
+        "target_date": "2025-04-03T14:52:38.922548",
+        "current_price": 178.62450273626297,
+        "predicted_price": 160.7620524626367,
+        "confidence": 55,
+        "direction": "down",
+        "prediction_id": "NVDA_five_day_20250329145238"
+    }
+]

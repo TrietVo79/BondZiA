@@ -1,0 +1,44 @@
+{
+  "symbol": "NVDA",
+  "timeframe": "monthly",
+  "hyperparameters": {
+    "model_type": "lstm",
+    "num_layers": 3,
+    "units": [
+      64,
+      256,
+      128
+    ],
+    "dropout_rates": [
+      0.3824375169769938,
+      0.3724505933915008,
+      0.36892604978325794
+    ],
+    "learning_rate": 0.001,
+    "activation": "relu",
+    "batch_size": 64,
+    "dense_layers": 1,
+    "dense_units": [
+      32
+    ]
+  },
+  "metrics": {
+    "mse": 17.42380737750109,
+    "rmse": 4.17418343841057,
+    "mae": 3.8697520228794695,
+    "mape": 3.525850556980571,
+    "direction_accuracy": 66.66666666666666
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250403_174805"
+}

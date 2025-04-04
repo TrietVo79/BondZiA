@@ -1,0 +1,17 @@
+2025-04-04 12:25:41,690 - CSVtoJSONConverter - INFO - Tìm thấy 14 file CSV
+2025-04-04 12:25:41,690 - CSVtoJSONConverter - INFO - Đã tìm thấy dữ liệu cho 7 cổ phiếu
+2025-04-04 12:25:41,690 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/MSFT_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,695 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho MSFT
+2025-04-04 12:25:41,695 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/AAPL_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,698 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho AAPL
+2025-04-04 12:25:41,698 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/NVDA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,701 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho NVDA
+2025-04-04 12:25:41,701 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/PLTR_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,704 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho PLTR
+2025-04-04 12:25:41,704 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/TSLA_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,708 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho TSLA
+2025-04-04 12:25:41,708 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/META_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,710 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho META
+2025-04-04 12:25:41,710 - CSVtoJSONConverter - INFO - Đang đọc /home/trietvo/BondZiA/data/raw/AMZN_daily_2020-04-02_2025-04-01.csv
+2025-04-04 12:25:41,713 - CSVtoJSONConverter - INFO - Đã xử lý dữ liệu cho AMZN
+2025-04-04 12:25:41,749 - CSVtoJSONConverter - INFO - Đã tạo file JSON: /home/trietvo/BondZiA/data/raw/market_data_20250404_122541.json

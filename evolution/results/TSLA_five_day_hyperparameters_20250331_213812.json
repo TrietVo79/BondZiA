@@ -1,0 +1,55 @@
+{
+  "symbol": "TSLA",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "transformer",
+    "num_layers": 4,
+    "units": [
+      64,
+      64,
+      64,
+      128
+    ],
+    "dropout_rates": [
+      0.42119235144829725,
+      0.41980054352757334,
+      0.11265389722147617,
+      0.40435019115149895
+    ],
+    "learning_rate": 0.01,
+    "activation": "relu",
+    "batch_size": 16,
+    "dense_layers": 3,
+    "dense_units": [
+      32,
+      128,
+      32
+    ],
+    "transformer_layers": 2,
+    "attention_dim": 32,
+    "num_heads": 4,
+    "attention_dropout": 0.24258573547043152,
+    "ffn_dim": 128,
+    "ffn_dropout": 0.2101730471492434,
+    "dense_dropout": 0.23600612452795003
+  },
+  "metrics": {
+    "mse": 1155.5422508004435,
+    "rmse": 33.99326772760223,
+    "mae": 31.77971984863282,
+    "mape": 11.633920454453424,
+    "direction_accuracy": 50.0
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250331_213812"
+}

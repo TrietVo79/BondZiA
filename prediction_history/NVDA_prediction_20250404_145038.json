@@ -1,0 +1,42 @@
+{
+    "intraday": {
+        "symbol": "NVDA",
+        "timeframe": "intraday",
+        "current_price": 111.39,
+        "predicted_price": 107.51216888427734,
+        "price_change_percent": -3.4813099162605767,
+        "direction": "down",
+        "confidence": 17.406549581302883,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng gi\u1ea3m g\u1ea7n \u0111\u00e2y; RSI cho th\u1ea5y t\u00ecnh tr\u1ea1ng qu\u00e1 mua (>70); M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 gi\u1ea3m 3.5%",
+        "timestamp": "2025-04-04T14:50:43.915856",
+        "target_time": "end of trading day"
+    },
+    "five_day": {
+        "symbol": "NVDA",
+        "timeframe": "five_day",
+        "current_price": 94.08,
+        "predicted_price": 110.14069366455078,
+        "price_change_percent": 17.071315544803127,
+        "direction": "up",
+        "confidence": 85.35657772401564,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; Kh\u1ed1i l\u01b0\u1ee3ng giao d\u1ecbch t\u0103ng \u0111\u1ed9t bi\u1ebfn; RSI cho th\u1ea5y t\u00ecnh tr\u1ea1ng qu\u00e1 b\u00e1n (<30); M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 17.1%",
+        "timestamp": "2025-04-04T14:50:45.259952",
+        "target_time": "5 trading days"
+    },
+    "monthly": {
+        "symbol": "NVDA",
+        "timeframe": "monthly",
+        "current_price": 94.08,
+        "predicted_price": 118.25865173339844,
+        "price_change_percent": 25.70009750573814,
+        "direction": "up",
+        "confidence": 99.0,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; Kh\u1ed1i l\u01b0\u1ee3ng giao d\u1ecbch t\u0103ng \u0111\u1ed9t bi\u1ebfn; RSI cho th\u1ea5y t\u00ecnh tr\u1ea1ng qu\u00e1 b\u00e1n (<30); M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 25.7%",
+        "timestamp": "2025-04-04T14:50:46.102348",
+        "target_time": "30 calendar days"
+    },
+    "current_price": 93.92,
+    "chart_path": "/home/trietvo/BondZiA/charts/NVDA_prediction_20250404_145046.png",
+    "timestamp": "2025-04-04T14:50:38.672102",
+    "symbol": "NVDA"
+}

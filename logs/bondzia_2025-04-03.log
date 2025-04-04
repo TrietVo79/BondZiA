@@ -1,0 +1,43 @@
+2025-04-03 06:35:34 | INFO | Gói yfinance đã được cài đặt
+2025-04-03 06:35:34 | INFO | Gói pytrends đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói tensorflow đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói pandas đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói numpy đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói matplotlib đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói seaborn đã được cài đặt
+2025-04-03 06:35:36 | INFO | Gói requests đã được cài đặt
+2025-04-03 06:35:36 | WARNING | Các gói sau chưa được cài đặt: scikit-learn>=0.24.0, beautifulsoup4>=4.9.0
+2025-04-03 06:35:41 | INFO | Đang cài đặt scikit-learn>=0.24.0...
+2025-04-03 06:35:42 | INFO | Đã cài đặt scikit-learn>=0.24.0 thành công
+2025-04-03 06:35:42 | INFO | Đang cài đặt beautifulsoup4>=4.9.0...
+2025-04-03 06:35:44 | INFO | Đã cài đặt beautifulsoup4>=4.9.0 thành công
+2025-04-03 06:35:44 | INFO | Đã tạo file enhanced_data_fetcher.py
+2025-04-03 06:35:44 | INFO | Đã tạo file ensemble_predictor.py
+2025-04-03 06:35:44 | INFO | Đã tạo file base_predictor.py
+2025-04-03 06:35:44 | INFO | Đã sao lưu /home/trietvo/BondZiA/models/base_predictor.py vào /home/trietvo/BondZiA/backup_20250403_063544/models/base_predictor.py
+2025-04-03 06:35:44 | INFO | Đã sao lưu /home/trietvo/BondZiA/utils/data_fetcher.py vào /home/trietvo/BondZiA/backup_20250403_063544/utils/data_fetcher.py
+2025-04-03 06:35:44 | INFO | Đã sao lưu /home/trietvo/BondZiA/utils/visualization.py vào /home/trietvo/BondZiA/backup_20250403_063544/utils/visualization.py
+2025-04-03 06:35:44 | INFO | Đã sao lưu /home/trietvo/BondZiA/config/system_config.json vào /home/trietvo/BondZiA/backup_20250403_063544/config/system_config.json
+2025-04-03 06:35:44 | INFO | Đã sao lưu các file gốc vào /home/trietvo/BondZiA/backup_20250403_063544
+2025-04-03 06:35:44 | INFO | Đã cập nhật cấu hình thành công, với 5 thay đổi
+2025-04-03 06:35:44 | INFO |   - Thay đổi: data_sources
+2025-04-03 06:35:44 | INFO |   - Thay đổi: market_evaluation
+2025-04-03 06:35:44 | INFO |   - Thay đổi: confidence
+2025-04-03 06:35:44 | INFO |   - Thay đổi: logging
+2025-04-03 06:35:44 | INFO |   - Thay đổi: use_ensemble
+2025-04-03 06:35:44 | INFO | Đã thay thế /home/trietvo/BondZiA/models/base_predictor.py thành công
+2025-04-03 06:35:44 | INFO | Đã tạo thư mục /home/trietvo/BondZiA/models/ensemble
+2025-04-03 06:35:44 | INFO | Đã tạo thư mục /home/trietvo/BondZiA/models/history
+2025-04-03 06:35:44 | INFO | Đã tạo thư mục /home/trietvo/BondZiA/prediction_history
+2025-04-03 06:35:44 | INFO | Đã tạo thư mục /home/trietvo/BondZiA/prediction_stats
+2025-04-03 06:35:44 | INFO | Đã sao chép enhanced_data_fetcher.py vào /home/trietvo/BondZiA/utils/enhanced_data_fetcher.py
+2025-04-03 06:35:44 | INFO | Đã sao chép ensemble_predictor.py vào /home/trietvo/BondZiA/models/ensemble_predictor.py
+2025-04-03 06:35:44 | INFO | Đã sao chép confidence_evaluator.py vào /home/trietvo/BondZiA/utils/confidence_evaluator.py
+2025-04-03 06:35:44 | INFO | Đã sao chép tất cả các module mới thành công
+2025-04-03 06:35:44 | INFO | Đã sao chép các lớp dự đoán cụ thể thành công
+2025-04-03 07:23:35 | INFO | Đã patch thành công các phương thức gửi thông báo Discord để gửi qua Telegram
+2025-04-03 07:23:35 | INFO | Đã tích hợp thành công Telegram vào BondZiA
+2025-04-03 12:38:30 | INFO | Đã patch thành công các phương thức gửi thông báo Discord để gửi qua Telegram
+2025-04-03 12:38:30 | INFO | Đã tích hợp thành công Telegram vào BondZiA
+2025-04-03 13:47:33 | INFO | Đã patch thành công các phương thức gửi thông báo Discord để gửi qua Telegram
+2025-04-03 13:47:33 | INFO | Đã tích hợp thành công Telegram vào BondZiA

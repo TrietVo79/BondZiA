@@ -1,0 +1,421 @@
+2025-04-01 13:45:07 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-04-01 13:45:07 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 13:45:08 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-04-01 13:45:08 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 13:45:08 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-04-01 13:45:08 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 13:45:09 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AGX - monthly
+2025-04-01 13:45:09 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AGX - monthly
+2025-04-01 13:45:09 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-04-01 13:45:09 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 13:45:13 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-04-01 13:45:13 | ERROR    | models.base_predictor:predict:396 - Không thể tải mô hình TSLA - monthly
+2025-04-01 17:25:13 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-04-01 17:25:13 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 17:25:14 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-04-01 17:25:14 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 17:25:14 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-04-01 17:25:14 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 17:25:16 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-04-01 17:25:16 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 18:30:24 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình TSLA - monthly
+2025-04-01 18:30:24 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 18:30:25 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình NVDA - monthly
+2025-04-01 18:30:25 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 18:30:25 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình PLTR - monthly
+2025-04-01 18:30:25 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 18:30:26 | ERROR    | models.base_predictor:train:243 - Không đủ dữ liệu để huấn luyện mô hình AMZN - monthly
+2025-04-01 18:30:26 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 19:38:18 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:38:18 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:38:18 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 19:38:19 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:38:19 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:38:19 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 19:38:20 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:38:20 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:38:20 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 19:38:21 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:38:21 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:38:21 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 19:54:37 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:54:37 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:54:37 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 19:54:38 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:54:38 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:54:38 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 19:54:39 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:54:39 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:54:39 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 19:54:40 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 19:54:40 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 19:54:40 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 20:01:36 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:01:36 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:01:36 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 20:01:38 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:01:38 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:01:38 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 20:01:39 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:01:39 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:01:39 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 20:01:40 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:01:40 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:01:40 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 20:04:11 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:04:11 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:04:11 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 20:04:12 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:04:12 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:04:12 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 20:04:13 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:04:13 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:04:13 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 20:04:15 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:04:15 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:04:15 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 20:05:19 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình MSFT - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 20:05:19 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 20:05:19 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho MSFT - monthly
+2025-04-01 21:04:07 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 21:04:07 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 21:04:07 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 21:04:08 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 21:04:08 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 21:04:08 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 21:04:08 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 21:04:08 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 21:04:08 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 21:04:09 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 21:04:09 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 21:04:09 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 21:04:09 | ERROR    | models.base_predictor:train:285 - Lỗi khi huấn luyện mô hình MSFT - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 21:04:09 | ERROR    | models.base_predictor:train:286 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 265, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 21:04:09 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho MSFT - monthly
+2025-04-01 22:17:21 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình TSLA - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-01 22:17:21 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-01 22:23:06 | ERROR    | models.base_predictor:train:290 - Lỗi khi huấn luyện mô hình TSLA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 22:23:06 | ERROR    | models.base_predictor:train:291 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 270, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 22:23:06 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho TSLA - monthly
+2025-04-01 22:23:07 | ERROR    | models.base_predictor:train:290 - Lỗi khi huấn luyện mô hình NVDA - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 22:23:07 | ERROR    | models.base_predictor:train:291 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 270, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 22:23:07 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho NVDA - monthly
+2025-04-01 22:23:08 | ERROR    | models.base_predictor:train:290 - Lỗi khi huấn luyện mô hình PLTR - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 22:23:08 | ERROR    | models.base_predictor:train:291 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 270, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 22:23:08 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho PLTR - monthly
+2025-04-01 22:23:10 | ERROR    | models.base_predictor:train:290 - Lỗi khi huấn luyện mô hình AMZN - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 22:23:10 | ERROR    | models.base_predictor:train:291 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 270, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 22:23:10 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho AMZN - monthly
+2025-04-01 22:23:11 | ERROR    | models.base_predictor:train:290 - Lỗi khi huấn luyện mô hình MSFT - monthly: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+2025-04-01 22:23:11 | ERROR    | models.base_predictor:train:291 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/models/base_predictor.py", line 270, in train
+    history = self.model.fit(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 1686, in train_validation_split
+    raise ValueError(
+ValueError: Training data contains 1 samples, which is not sufficient to split it into a validation and training set as specified by `validation_split=0.2`. Either provide more data, or a different value for the `validation_split` argument.
+
+2025-04-01 22:23:11 | ERROR    | __main__:_train_model_if_needed:728 - Huấn luyện mô hình thất bại cho MSFT - monthly
+2025-04-02 00:19:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình TSLA - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-02 00:19:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-02 02:12:41 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình NVDA - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-02 02:12:41 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-02 02:46:37 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình PLTR - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-02 02:46:37 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-02 03:18:09 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình AMZN - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-02 03:18:09 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+
+2025-04-02 04:15:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:589 - Lỗi khi tiến hóa mô hình MSFT - monthly: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+2025-04-02 04:15:12 | ERROR    | evolution.hyperparameter_tuner:evolve_model:590 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 579, in evolve_model
+    result = tuner.tune(data)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 398, in tune
+    X_train, X_test, y_train, y_test, feature_scaler, price_scaler = self._prepare_data(data, features)
+  File "/home/trietvo/BondZiA/evolution/hyperparameter_tuner.py", line 126, in _prepare_data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2617, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/trietvo/miniconda3/envs/tf_gpu/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 2273, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=1, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+

@@ -1,0 +1,44 @@
+{
+  "symbol": "TSLA",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "lstm",
+    "num_layers": 2,
+    "units": [
+      64,
+      128
+    ],
+    "dropout_rates": [
+      0.1297738594067217,
+      0.3710875176873436
+    ],
+    "learning_rate": 0.01,
+    "activation": "relu",
+    "batch_size": 16,
+    "dense_layers": 3,
+    "dense_units": [
+      64,
+      16,
+      128
+    ]
+  },
+  "metrics": {
+    "mse": 1222.3013017905428,
+    "rmse": 34.96142591186096,
+    "mae": 33.81646519252232,
+    "mape": 12.347461997461828,
+    "direction_accuracy": 50.0
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250402_001912"
+}

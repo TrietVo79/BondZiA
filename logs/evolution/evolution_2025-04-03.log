@@ -1,0 +1,149 @@
+2025-04-03 07:23:44 | INFO     | __main__:_check_and_train_initial_models:349 - Tất cả mô hình đã tồn tại, không cần huấn luyện ban đầu
+2025-04-03 12:38:37 | INFO     | __main__:_check_and_train_initial_models:349 - Tất cả mô hình đã tồn tại, không cần huấn luyện ban đầu
+2025-04-03 13:47:40 | INFO     | __main__:_check_and_train_initial_models:349 - Tất cả mô hình đã tồn tại, không cần huấn luyện ban đầu
+2025-04-03 16:01:00 | INFO     | __main__:_check_weekday_evolution:470 - Bắt đầu kiểm tra tiến hóa mô hình theo lịch trình buổi tối ngày thường...
+2025-04-03 16:01:00 | INFO     | __main__:_evolve_models:858 - Kiểm tra và huấn luyện mô hình trước khi tiến hóa...
+2025-04-03 16:01:00 | INFO     | __main__:_train_all_models:800 - Bắt đầu huấn luyện tất cả các mô hình...
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - intraday đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - five_day đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - monthly đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - intraday đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - five_day đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - monthly đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - intraday đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - five_day đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - monthly đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - intraday đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - five_day đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - monthly đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - intraday
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - intraday đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - five_day
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - five_day đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - monthly
+2025-04-03 16:01:01 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - monthly đã tồn tại, không cần huấn luyện
+2025-04-03 16:01:01 | INFO     | __main__:_train_all_models:815 - Đã huấn luyện 15/15 mô hình
+2025-04-03 16:01:05 | INFO     | __main__:_evolve_models:867 - Bắt đầu tiến hóa mô hình...
+2025-04-03 16:01:05 | INFO     | evolution.hyperparameter_tuner:__init__:560 - Khởi tạo ModelEvolutionManager với 5 cổ phiếu
+2025-04-03 16:01:05 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:604 - Bắt đầu tiến hóa tất cả các mô hình tại 2025-04-03T16:01:05.393792
+2025-04-03 16:01:05 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - intraday
+2025-04-03 16:40:10 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - intraday
+2025-04-03 16:40:10 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - five_day
+2025-04-03 16:42:18 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - five_day
+2025-04-03 16:42:18 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - monthly
+2025-04-03 16:52:03 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - monthly
+2025-04-03 16:52:03 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - intraday
+2025-04-03 17:32:51 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - intraday
+2025-04-03 17:32:51 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - five_day
+2025-04-03 17:40:18 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - five_day
+2025-04-03 17:40:18 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - monthly
+2025-04-03 17:48:05 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - monthly
+2025-04-03 17:48:05 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - intraday
+2025-04-03 18:24:10 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - intraday
+2025-04-03 18:24:10 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - five_day
+2025-04-03 18:28:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - five_day
+2025-04-03 18:28:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - monthly
+2025-04-03 18:41:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - monthly
+2025-04-03 18:41:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - intraday
+2025-04-03 23:12:59 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - intraday
+2025-04-03 23:12:59 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - five_day
+2025-04-03 23:17:52 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - five_day
+2025-04-03 23:17:52 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - monthly
+2025-04-03 23:36:12 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - monthly
+2025-04-03 23:36:12 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - intraday
+2025-04-04 00:06:43 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - intraday
+2025-04-04 00:06:43 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - five_day
+2025-04-04 00:15:27 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - five_day
+2025-04-04 00:15:27 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - monthly
+2025-04-04 00:18:35 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - monthly
+2025-04-04 00:18:35 | INFO     | evolution.hyperparameter_tuner:_save_evolution_results:727 - Đã lưu kết quả tiến hóa vào /home/trietvo/BondZiA/evolution/results/evolution_results_20250404_001835.json
+2025-04-04 00:18:35 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:664 - Hoàn thành tiến hóa 15/15 mô hình
+2025-04-04 00:18:35 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:666 - Thời gian tiến hóa: 29849.972642 giây
+2025-04-04 00:18:35 | INFO     | __main__:_save_evolution_status:991 - Đã lưu trạng thái tiến hóa: {'last_evolution_time': '2025-04-04T00:18:35.453531', 'version': '1.0.11'}
+2025-04-04 00:18:38 | INFO     | utils.telegram_integration:patched_send_evolution_update:83 - Đã gửi thông báo tiến hóa qua Telegram
+2025-04-04 00:18:38 | INFO     | __main__:_evolve_models:914 - Hoàn thành tiến hóa mô hình. Phiên bản mới: 1.0.13
+2025-04-04 00:18:43 | INFO     | __main__:_check_night_evolution_window:459 - Đang trong cửa sổ tiến hóa buổi sáng sớm, kiểm tra nếu cần tiến hóa mô hình...
+2025-04-04 00:18:43 | INFO     | __main__:_evolve_models:858 - Kiểm tra và huấn luyện mô hình trước khi tiến hóa...
+2025-04-04 00:18:43 | INFO     | __main__:_train_all_models:800 - Bắt đầu huấn luyện tất cả các mô hình...
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - intraday
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - intraday đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - five_day
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - five_day đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho TSLA - monthly
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho TSLA - monthly đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - intraday
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - intraday đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - five_day
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - five_day đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho NVDA - monthly
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho NVDA - monthly đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - intraday
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - intraday đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - five_day
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - five_day đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho PLTR - monthly
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho PLTR - monthly đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - intraday
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - intraday đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - five_day
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - five_day đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho AMZN - monthly
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho AMZN - monthly đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - intraday
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - intraday đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - five_day
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - five_day đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:744 - Kiểm tra và huấn luyện mô hình cho MSFT - monthly
+2025-04-04 00:18:43 | INFO     | __main__:_train_model_if_needed:765 - Mô hình cho MSFT - monthly đã tồn tại, không cần huấn luyện
+2025-04-04 00:18:43 | INFO     | __main__:_train_all_models:815 - Đã huấn luyện 15/15 mô hình
+2025-04-04 00:18:47 | INFO     | __main__:_evolve_models:867 - Bắt đầu tiến hóa mô hình...
+2025-04-04 00:18:47 | INFO     | evolution.hyperparameter_tuner:__init__:560 - Khởi tạo ModelEvolutionManager với 5 cổ phiếu
+2025-04-04 00:18:47 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:604 - Bắt đầu tiến hóa tất cả các mô hình tại 2025-04-04T00:18:47.231263
+2025-04-04 00:18:47 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - intraday
+2025-04-04 00:34:27 | WARNING  | evolution.hyperparameter_tuner:evolve_model:586 - Không thành công: Tiến hóa mô hình TSLA - intraday
+2025-04-04 00:34:27 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - five_day
+2025-04-04 00:45:17 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - five_day
+2025-04-04 00:45:17 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình TSLA - monthly
+2025-04-04 00:55:07 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình TSLA - monthly
+2025-04-04 00:55:07 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - intraday
+2025-04-04 02:49:46 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - intraday
+2025-04-04 02:49:46 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - five_day
+2025-04-04 03:07:22 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - five_day
+2025-04-04 03:07:22 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình NVDA - monthly
+2025-04-04 03:12:53 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình NVDA - monthly
+2025-04-04 03:12:53 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - intraday
+2025-04-04 04:56:22 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - intraday
+2025-04-04 04:56:22 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - five_day
+2025-04-04 04:58:37 | WARNING  | evolution.hyperparameter_tuner:evolve_model:586 - Không thành công: Tiến hóa mô hình PLTR - five_day
+2025-04-04 04:58:37 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình PLTR - monthly
+2025-04-04 05:09:08 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình PLTR - monthly
+2025-04-04 05:09:08 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - intraday
+2025-04-04 07:00:55 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - intraday
+2025-04-04 07:00:55 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - five_day
+2025-04-04 07:07:48 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - five_day
+2025-04-04 07:07:48 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình AMZN - monthly
+2025-04-04 07:20:01 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình AMZN - monthly
+2025-04-04 07:20:01 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - intraday
+2025-04-04 08:16:47 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - intraday
+2025-04-04 08:16:47 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - five_day
+2025-04-04 08:25:04 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - five_day
+2025-04-04 08:25:04 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:643 - Tiến hóa mô hình MSFT - monthly
+2025-04-04 08:46:10 | INFO     | evolution.hyperparameter_tuner:evolve_model:583 - Thành công: Tiến hóa mô hình MSFT - monthly
+2025-04-04 08:46:10 | INFO     | evolution.hyperparameter_tuner:_save_evolution_results:727 - Đã lưu kết quả tiến hóa vào /home/trietvo/BondZiA/evolution/results/evolution_results_20250404_084610.json
+2025-04-04 08:46:10 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:664 - Hoàn thành tiến hóa 13/15 mô hình
+2025-04-04 08:46:10 | INFO     | evolution.hyperparameter_tuner:evolve_all_models:666 - Thời gian tiến hóa: 30443.283978 giây
+2025-04-04 08:46:10 | INFO     | __main__:_save_evolution_status:991 - Đã lưu trạng thái tiến hóa: {'last_evolution_time': '2025-04-04T08:46:10.564066', 'version': '1.0.11'}
+2025-04-04 08:46:13 | INFO     | utils.telegram_integration:patched_send_evolution_update:83 - Đã gửi thông báo tiến hóa qua Telegram
+2025-04-04 08:46:13 | INFO     | __main__:_evolve_models:914 - Hoàn thành tiến hóa mô hình. Phiên bản mới: 1.0.14

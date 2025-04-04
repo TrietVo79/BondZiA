@@ -1,0 +1,14 @@
+{
+  "polygon": {
+    "api_key": "G4YiWQQNOvZq372tdhVQTEptrXdALhIT",
+    "plan": "Stocks Advanced"
+  },
+  "discord": {
+    "prediction_webhook": "https://discord.com/api/webhooks/1356080347724648489/EwcyY_I50O5U5x3YRK9HKT97m2ZCWe_osFpwwZL4MWUAbzuvqltEdQ9wh6FTPgl4omTT",
+    "update_webhook": "https://discord.com/api/webhooks/1356080700675063858/yp6VJ4ns492gKXItp54nDWMKKJKmy76dzUDzdELG4yEiAjaTITozTvHCYiWzIw4SQrwH"
+  },
+  "telegram": {
+    "bot_token": "7975563527:AAEGCkOxvrcbmDgN0v6t796mSJezFn0-mu8",
+    "chat_id": "-1002656514793"
+  }
+}

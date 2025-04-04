@@ -1,0 +1,47 @@
+{
+  "symbol": "AMZN",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "gru",
+    "num_layers": 4,
+    "units": [
+      256,
+      64,
+      64,
+      32
+    ],
+    "dropout_rates": [
+      0.154405985224824,
+      0.2841246142969889,
+      0.44161406115121093,
+      0.1934609253704264
+    ],
+    "learning_rate": 0.001,
+    "activation": "relu",
+    "batch_size": 32,
+    "dense_layers": 2,
+    "dense_units": [
+      128,
+      16
+    ]
+  },
+  "metrics": {
+    "mse": 53.29224839802081,
+    "rmse": 7.300153998240092,
+    "mae": 5.493347429547994,
+    "mape": 2.891521634142408,
+    "direction_accuracy": 50.0
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250403_231752"
+}

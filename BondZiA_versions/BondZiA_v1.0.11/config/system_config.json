@@ -1,0 +1,103 @@
+{
+  "system": {
+    "max_versions_to_keep": 5,
+    "version": "1.0.12",
+    "self_repair_enabled": true
+  },
+  "market": {
+    "timezone": "America/New_York",
+    "exchange": "NASDAQ",
+    "open_time": "09:30",
+    "close_time": "16:00",
+    "pre_market_start": "04:00",
+    "market_open": "09:30",
+    "market_close": "16:00",
+    "after_market_end": "20:00",
+    "pre_market_open": "04:00",
+    "weekend_days": [
+      5,
+      6
+    ]
+  },
+  "data": {
+    "intraday_history_days": 30,
+    "five_day_history_days": 90,
+    "monthly_history_days": 500,
+    "cache_expiry_minutes": 15
+  },
+  "prediction": {
+    "intraday": {
+      "lookback_window": 60,
+      "update_interval": 15,
+      "features": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "rsi_14",
+        "macd",
+        "sma_20",
+        "ema_9"
+      ]
+    },
+    "five_day": {
+      "lookback_window": 30,
+      "update_interval": 1440,
+      "features": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "rsi_14",
+        "macd",
+        "sma_20",
+        "ema_9"
+      ]
+    },
+    "monthly": {
+      "lookback_window": 30,
+      "update_interval": 1440,
+      "model_type": "lstm",
+      "features": [
+        "close",
+        "open",
+        "high",
+        "low",
+        "volume",
+        "rsi_14",
+        "macd",
+        "sma_20",
+        "ema_9"
+      ],
+      "min_samples": 10
+    }
+  },
+  "evolution": {
+    "max_trials": 30,
+    "early_stopping_patience": 10,
+    "evaluation_metric": "rmse",
+    "population_size": 20,
+    "generations": 10,
+    "mutation_rate": 0.1
+  },
+  "notification": {
+    "send_predictions": true,
+    "send_errors": true,
+    "send_system_updates": true,
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "send_telegram_predictions": true,
+    "send_telegram_system_updates": true,
+    "send_telegram_errors": true,
+    "telegram_max_retries": 3,
+    "telegram_retry_delay_seconds": 3
+  },
+  "visualization": {
+    "theme": "dark",
+    "up_color": "#00C851",
+    "down_color": "#ff4444",
+    "neutral_color": "#9e9e9e"
+  }
+}

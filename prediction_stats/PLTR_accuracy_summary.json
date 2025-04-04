@@ -1,0 +1,128 @@
+{
+    "history": [
+        {
+            "intraday": {
+                "sample_count": 10,
+                "mae": 2.1672457885742205,
+                "mape": 2.925547770753538,
+                "rmse": 2.16724578857422,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "five_day": {
+                "sample_count": 10,
+                "mae": 12.60998718261719,
+                "mape": 17.022120926859056,
+                "rmse": 12.60998718261719,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": 9.229273159309413e-16
+            },
+            "monthly": {
+                "sample_count": 10,
+                "mae": 10.791421813964845,
+                "mape": 14.56725406852706,
+                "rmse": 10.791421813964845,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": -3.0637852566288882e-15
+            },
+            "timestamp": "2025-04-04T14:54:44.313084",
+            "symbol": "PLTR"
+        },
+        {
+            "intraday": {
+                "sample_count": 10,
+                "mae": 2.1672457885742205,
+                "mape": 2.925547770753538,
+                "rmse": 2.16724578857422,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 0
+            },
+            "five_day": {
+                "sample_count": 10,
+                "mae": 12.60998718261719,
+                "mape": 17.022120926859056,
+                "rmse": 12.60998718261719,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": 9.229273159309413e-16
+            },
+            "monthly": {
+                "sample_count": 10,
+                "mae": 10.791421813964845,
+                "mape": 14.56725406852706,
+                "rmse": 10.791421813964845,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": -3.0637852566288882e-15
+            },
+            "timestamp": "2025-04-04T15:03:26.761810",
+            "symbol": "PLTR"
+        },
+        {
+            "intraday": {
+                "sample_count": 14,
+                "mae": 2.2574457885742163,
+                "mape": 3.0510229634006527,
+                "rmse": 2.2574457885742163,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 1.0
+            },
+            "five_day": {
+                "sample_count": 14,
+                "mae": 12.700187182617185,
+                "mape": 17.16478106795421,
+                "rmse": 12.700187182617185,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": 2.693628172359483e-15
+            },
+            "monthly": {
+                "sample_count": 14,
+                "mae": 10.881621813964841,
+                "mape": 14.706921513458392,
+                "rmse": 10.881621813964843,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": -2.9233044341351272e-15
+            },
+            "timestamp": "2025-04-04T16:09:33.810408",
+            "symbol": "PLTR"
+        }
+    ],
+    "latest": {
+        "intraday": {
+            "sample_count": 14,
+            "mae": 2.2574457885742163,
+            "mape": 3.0510229634006527,
+            "rmse": 2.2574457885742163,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0,
+            "confidence_correlation": 1.0
+        },
+        "five_day": {
+            "sample_count": 14,
+            "mae": 12.700187182617185,
+            "mape": 17.16478106795421,
+            "rmse": 12.700187182617185,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0.0,
+            "confidence_correlation": 2.693628172359483e-15
+        },
+        "monthly": {
+            "sample_count": 14,
+            "mae": 10.881621813964841,
+            "mape": 14.706921513458392,
+            "rmse": 10.881621813964843,
+            "direction_accuracy": 0.0,
+            "high_confidence_accuracy": 0.0,
+            "confidence_correlation": -2.9233044341351272e-15
+        },
+        "timestamp": "2025-04-04T16:09:33.810408",
+        "symbol": "PLTR"
+    }
+}

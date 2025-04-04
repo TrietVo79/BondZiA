@@ -1,0 +1,48 @@
+{
+  "symbol": "AGX",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "transformer",
+    "num_layers": 1,
+    "units": [
+      64
+    ],
+    "dropout_rates": [
+      0.39234464913952394
+    ],
+    "learning_rate": 0.01,
+    "activation": "relu",
+    "batch_size": 64,
+    "dense_layers": 2,
+    "dense_units": [
+      16,
+      32
+    ],
+    "transformer_layers": 1,
+    "attention_dim": 32,
+    "num_heads": 2,
+    "attention_dropout": 0.24360048621845792,
+    "ffn_dim": 256,
+    "ffn_dropout": 0.15992002724932466,
+    "dense_dropout": 0.23500807578019178
+  },
+  "metrics": {
+    "mse": 98.87814998899101,
+    "rmse": 9.943749292343961,
+    "mae": 8.407054850260417,
+    "mape": 6.43685431718458,
+    "direction_accuracy": 80.0
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250401_051911"
+}

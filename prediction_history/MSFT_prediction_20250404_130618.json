@@ -1,0 +1,42 @@
+{
+    "intraday": {
+        "symbol": "MSFT",
+        "timeframe": "intraday",
+        "current_price": 387.39,
+        "predicted_price": 382.5120544433594,
+        "price_change_percent": -1.259182105020938,
+        "direction": "down",
+        "confidence": 6.29591052510469,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng gi\u1ea3m g\u1ea7n \u0111\u00e2y; Kh\u1ed1i l\u01b0\u1ee3ng giao d\u1ecbch gi\u1ea3m m\u1ea1nh; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 gi\u1ea3m 1.3%",
+        "timestamp": "2025-04-04T13:06:25.487648",
+        "target_time": "end of trading day"
+    },
+    "current_price": 365.06,
+    "chart_path": "/home/trietvo/BondZiA/charts/MSFT_prediction_20250404_130625.png",
+    "five_day": {
+        "symbol": "MSFT",
+        "timeframe": "five_day",
+        "current_price": 363.28,
+        "predicted_price": 374.5401611328125,
+        "price_change_percent": 3.0995819017871966,
+        "direction": "up",
+        "confidence": 15.497909508935983,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 3.1%",
+        "timestamp": "2025-04-04T12:51:35.270837",
+        "target_time": "5 trading days"
+    },
+    "monthly": {
+        "symbol": "MSFT",
+        "timeframe": "monthly",
+        "current_price": 363.28,
+        "predicted_price": 379.9961853027344,
+        "price_change_percent": 4.601460389433606,
+        "direction": "up",
+        "confidence": 23.007301947168028,
+        "reason": "Gi\u00e1 c\u00f3 xu h\u01b0\u1edbng t\u0103ng g\u1ea7n \u0111\u00e2y; M\u00f4 h\u00ecnh d\u1ef1 \u0111o\u00e1n gi\u00e1 t\u0103ng 4.6%",
+        "timestamp": "2025-04-04T12:51:35.689359",
+        "target_time": "30 calendar days"
+    },
+    "timestamp": "2025-04-04T13:06:18.652695",
+    "symbol": "MSFT"
+}

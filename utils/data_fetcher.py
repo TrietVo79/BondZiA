@@ -14,7 +14,7 @@ import traceback
 class PolygonDataFetcher:
     """Lớp xử lý việc lấy dữ liệu từ Polygon.io API"""
     
-    def __init__(self, api_key=None, config_path="../config/system_config.json"):
+    def __init__(self, api_key=None, data_dir='data/raw', config_path="../config/system_config.json"):
         """
         Khởi tạo lớp lấy dữ liệu Polygon.io
         
@@ -36,6 +36,7 @@ class PolygonDataFetcher:
             api_key = api_keys['polygon']['api_key']
         
         self.api_key = api_key
+        self.data_dir = data_dir
         self.base_url = "https://api.polygon.io"
         
         # Đọc danh sách cổ phiếu từ cấu hình
@@ -721,6 +722,7 @@ class PolygonDataFetcher:
             data (dict): Dữ liệu thị trường
             filename (str): Tên file để lưu
         """
+        logger.info(f"Phương thức save_data_to_disk được gọi với filename: {filename}")
         file_path = os.path.join(self.data_dir, filename)
         try:
             with open(file_path, 'w') as f:

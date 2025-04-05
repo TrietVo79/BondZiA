@@ -25,11 +25,6 @@ BondZiA AI là hệ thống dự đoán giá cổ phiếu sử dụng các mô h
 - Tài khoản Polygon.io (gói Stocks Advanced)
 - Webhook Discord hoặc Telegram
 
-Bước 1: Clone dự án
-
-git clone https://github.com/yourusername/bondzia.git
-cd bondzia
-
 Bước 2: Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 Nếu cần cài đặt thêm các thư viện cho module đánh giá hiệu suất:

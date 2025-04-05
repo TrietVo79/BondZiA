@@ -352,3 +352,36 @@ AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
     file_path = os.path.join(self.data_dir, filename)
 AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
 
+2025-04-05 01:22:04 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-05 01:22:04 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    """
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-05 01:22:05 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-05 01:22:05 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    """
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-05 01:22:09 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-05 01:22:09 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    """
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+
+2025-04-05 07:55:19 | ERROR    | evolution.hyperparameter_tuner:tune:515 - Không tìm thấy mô hình tốt cho AMZN - intraday
+2025-04-05 10:20:50 | ERROR    | __main__:_update_data:514 - Lỗi khi cập nhật dữ liệu: 'PolygonDataFetcher' object has no attribute 'data_dir'
+2025-04-05 10:20:50 | ERROR    | __main__:_update_data:515 - Traceback (most recent call last):
+  File "/home/trietvo/BondZiA/main.py", line 507, in _update_data
+    self.data_fetcher.save_data_to_disk(data, filename=f"market_data_{timestamp}.json")
+  File "/home/trietvo/BondZiA/utils/data_fetcher.py", line 724, in save_data_to_disk
+    """
+AttributeError: 'PolygonDataFetcher' object has no attribute 'data_dir'
+

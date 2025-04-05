@@ -1,0 +1,31 @@
+{
+    "intraday": {
+        "sample_count": 14,
+        "mae": 27.282058715820312,
+        "mape": 15.954420301649302,
+        "rmse": 27.282058715820312,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 0
+    },
+    "five_day": {
+        "sample_count": 14,
+        "mae": 18.639389038085938,
+        "mape": 10.900227507652598,
+        "rmse": 18.639389038085938,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 2.013690692380845e-15
+    },
+    "monthly": {
+        "sample_count": 14,
+        "mae": 18.601287841796875,
+        "mape": 10.877946106313967,
+        "rmse": 18.601287841796875,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 0
+    },
+    "timestamp": "2025-04-05T10:20:13.445693",
+    "symbol": "AMZN"
+}

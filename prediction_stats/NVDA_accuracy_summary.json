@@ -278,37 +278,68 @@
             },
             "timestamp": "2025-04-04T16:09:33.700060",
             "symbol": "NVDA"
+        },
+        {
+            "intraday": {
+                "sample_count": 14,
+                "mae": 13.202168884277341,
+                "mape": 13.998694607440713,
+                "rmse": 13.202168884277343,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0,
+                "confidence_correlation": 1.0
+            },
+            "five_day": {
+                "sample_count": 14,
+                "mae": 15.830693664550779,
+                "mape": 16.78580602751646,
+                "rmse": 15.83069366455078,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": 0.0
+            },
+            "monthly": {
+                "sample_count": 14,
+                "mae": 23.948651733398435,
+                "mape": 25.393544410347197,
+                "rmse": 23.94865173339843,
+                "direction_accuracy": 0.0,
+                "high_confidence_accuracy": 0.0,
+                "confidence_correlation": 0
+            },
+            "timestamp": "2025-04-05T10:20:13.488302",
+            "symbol": "NVDA"
         }
     ],
     "latest": {
         "intraday": {
             "sample_count": 14,
-            "mae": 13.112368884277345,
-            "mape": 13.890250704214784,
-            "rmse": 13.112368884277345,
+            "mae": 13.202168884277341,
+            "mape": 13.998694607440713,
+            "rmse": 13.202168884277343,
             "direction_accuracy": 0.0,
             "high_confidence_accuracy": 0,
-            "confidence_correlation": -1.0
+            "confidence_correlation": 1.0
         },
         "five_day": {
             "sample_count": 14,
-            "mae": 15.740893664550782,
-            "mape": 16.674710819886037,
-            "rmse": 15.740893664550784,
+            "mae": 15.830693664550779,
+            "mape": 16.78580602751646,
+            "rmse": 15.83069366455078,
             "direction_accuracy": 0.0,
             "high_confidence_accuracy": 0.0,
-            "confidence_correlation": 0
+            "confidence_correlation": 0.0
         },
         "monthly": {
             "sample_count": 14,
-            "mae": 23.858851733398435,
-            "mape": 25.274260891864635,
-            "rmse": 23.858851733398435,
+            "mae": 23.948651733398435,
+            "mape": 25.393544410347197,
+            "rmse": 23.94865173339843,
             "direction_accuracy": 0.0,
             "high_confidence_accuracy": 0.0,
             "confidence_correlation": 0
         },
-        "timestamp": "2025-04-04T16:09:33.700060",
+        "timestamp": "2025-04-05T10:20:13.488302",
         "symbol": "NVDA"
     }
 }

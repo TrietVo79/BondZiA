@@ -1,0 +1,31 @@
+{
+    "intraday": {
+        "sample_count": 14,
+        "mae": 17.816582031249993,
+        "mape": 7.441248812283335,
+        "rmse": 17.816582031249993,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 0
+    },
+    "five_day": {
+        "sample_count": 14,
+        "mae": 17.701500244140618,
+        "mape": 7.393183913519866,
+        "rmse": 17.70150024414062,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 5.28610115111667e-16
+    },
+    "monthly": {
+        "sample_count": 14,
+        "mae": 18.348350830078118,
+        "mape": 7.663346627439382,
+        "rmse": 18.348350830078118,
+        "direction_accuracy": 0.0,
+        "high_confidence_accuracy": 0,
+        "confidence_correlation": 0
+    },
+    "timestamp": "2025-04-05T10:20:13.567937",
+    "symbol": "TSLA"
+}

@@ -1,0 +1,46 @@
+{
+  "symbol": "PLTR",
+  "timeframe": "five_day",
+  "hyperparameters": {
+    "model_type": "lstm",
+    "num_layers": 3,
+    "units": [
+      32,
+      256,
+      32
+    ],
+    "dropout_rates": [
+      0.23862883859137882,
+      0.4406017074470989,
+      0.22280909735034712
+    ],
+    "learning_rate": 0.0005,
+    "activation": "relu",
+    "batch_size": 128,
+    "dense_layers": 3,
+    "dense_units": [
+      32,
+      16,
+      64
+    ]
+  },
+  "metrics": {
+    "mse": 23.133139789164915,
+    "rmse": 4.809692275932517,
+    "mae": 3.7736819893973217,
+    "mape": 4.5800586341556215,
+    "direction_accuracy": 66.66666666666666
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250405_071250"
+}

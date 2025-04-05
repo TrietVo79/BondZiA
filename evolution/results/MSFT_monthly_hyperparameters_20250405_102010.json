@@ -1,0 +1,48 @@
+{
+  "symbol": "MSFT",
+  "timeframe": "monthly",
+  "hyperparameters": {
+    "model_type": "gru",
+    "num_layers": 4,
+    "units": [
+      32,
+      32,
+      64,
+      32
+    ],
+    "dropout_rates": [
+      0.27933032907998234,
+      0.327533467304277,
+      0.3126241586877596,
+      0.3763613667216935
+    ],
+    "learning_rate": 0.0001,
+    "activation": "relu",
+    "batch_size": 64,
+    "dense_layers": 3,
+    "dense_units": [
+      32,
+      32,
+      128
+    ]
+  },
+  "metrics": {
+    "mse": 204.25430963303663,
+    "rmse": 14.291756702135558,
+    "mae": 13.026559709821422,
+    "mape": 3.4204341533707847,
+    "direction_accuracy": 83.33333333333334
+  },
+  "features_used": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "rsi_14",
+    "macd",
+    "sma_20",
+    "ema_9"
+  ],
+  "timestamp": "20250405_102010"
+}
